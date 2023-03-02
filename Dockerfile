@@ -21,5 +21,3 @@ RUN apk update && \
 RUN apk add --no-cache gcompat
 
 COPY . .
-
-CMD ["rails", "server", "-b", "0.0.0.0"]
