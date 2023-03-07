@@ -1,4 +1,4 @@
-# Doc: https://devcenter.heroku.com/articles/deploying-rails-applications-with-the-puma-web-server#config
+#Doc : https://devcenter.heroku.com/articles/deploying-rails-applications-with-the-puma-web-server#config
 
 # Specifies the number of `workers` to boot in clustered mode.
 # Workers are forked web server processes. If using threads and workers together
@@ -7,7 +7,6 @@
 # processes).
 #
 workers Integer(ENV.fetch("WEB_CONCURRENCY") { 2 })
-
 
 # Puma can serve each request in a thread from an internal thread pool.
 # The `threads` method setting takes two numbers: a minimum and maximum.
@@ -24,16 +23,15 @@ threads min_threads_count, max_threads_count
 # before forking the application. This takes advantage of Copy On Write
 # process behavior so workers use less memory.
 #
-preload_ app!
+preload_app!
 
 
 rackup      DefaultRackup if defined?(DefaultRackup)
 
-
 # Specifies the `worker_timeout` threshold that Puma will use to wait before
 # terminating a worker in development environments.
 #
-worker_timeout 3600 if ENV.fetch("RAILS_ENV", "development") == "development"
+# worker_timeout 3600 if ENV.fetch("RACK_ENV", "development") == "development"
 
 # Specifies the `port` that Puma will listen on to receive requests; default is 3000.
 #
