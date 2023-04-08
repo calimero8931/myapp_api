@@ -44,5 +44,10 @@ group :development do
   gem 'spring'
 end
 
+group :test do
+  # テスト結果を色付けする（テスト環境のみ）
+  gem 'minitest-reporters', '~> 1.6'
+end
+
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
