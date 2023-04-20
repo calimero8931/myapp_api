@@ -21,3 +21,5 @@ RUN apk update && \
 RUN apk add --no-cache gcompat
 
 COPY . .
+
+CMD bundle exec rails server -b 0.0.0.0
