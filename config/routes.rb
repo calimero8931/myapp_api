@@ -9,6 +9,8 @@ Rails.application.routes.draw do
 
       # projects
       resources :projects, only:[:index]
+
+      post '/signup', to: 'auth#signup'
     end
   end
 end

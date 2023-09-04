@@ -8,7 +8,7 @@ class Api::V1::ProjectsController < ApplicationController
 
   def index
     projects = []
-    date = Date.new(2021,4,1)
+    date = Date.new(2023,8,31)
     10.times do |n|
       id = n + 1
       name = "#{current_user.name} project #{id.to_s.rjust(2, "0")}"
