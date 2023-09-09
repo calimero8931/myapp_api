@@ -11,6 +11,15 @@ Rails.application.routes.draw do
       resources :projects, only:[:index]
 
       post '/signup', to: 'auth#signup'
+
+      # usersデータ取得
+      get '/data/', to: 'users#get_user_data'
+      # get '/data/', to: proc { [200, {}, ['とりあえず返します']] }
+
+      # friend申請
+      post '/friend_request/', to: 'friendships#friend_request'
+      # post '/friend_request/', to: proc { [200, {}, ['とりあえず返します']] }
+
     end
   end
 end
