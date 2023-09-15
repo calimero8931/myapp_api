@@ -20,6 +20,15 @@ Rails.application.routes.draw do
       post '/friend_request/', to: 'friendships#friend_request'
       # post '/friend_request/', to: proc { [200, {}, ['とりあえず返します']] }
 
+      # category取得
+      get '/categories_request/', to: 'categories#index'
+
+      # trophies取得
+      get '/sub_categories_request/', to: 'sub_categories#index'
+
+      # trophies取得
+      get '/trophies_request/', to: 'trophies#index'
+
     end
   end
 end
