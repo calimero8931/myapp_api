@@ -29,6 +29,9 @@ Rails.application.routes.draw do
       # trophies取得
       get '/trophies_request/', to: 'trophies#index'
 
+      # trophy個別取得
+      get 'trophy/:id', to: 'trophies#show'
+
     end
   end
 end
