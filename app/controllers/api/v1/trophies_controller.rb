@@ -5,9 +5,17 @@ class Api::V1::TrophiesController < ApplicationController
     render json: trophies.to_json, status: :ok
   end
 
-  def show
-    trophy = Trophy.find(params[:id])
+  def list
+    sub_categories_id = params[:param1]
+    prefecture_id = params[:param2]
+    trophiesData = Trophy.where( category_id:sub_categories_id ,prefecture_id: prefecture_id).order(:id)
 
-    render json: trophy.to_json, status: :ok
+    render json: trophiesData, status: :ok
+  end
+
+  def show
+    trophy_id = params[:id]
+    trophyData = Trophy.find(trophy_id)
+    render json: trophyData, status: :ok
   end
 end

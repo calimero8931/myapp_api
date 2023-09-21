@@ -1,0 +1,1731 @@
+Script started on Mon Sep 18 01:36:43 2023
+/Users/yuya/.zshrc:source:1: no such file or directory: /Users/yuya/.zshrceval
+[1m[7m%[27m[1m[0m                                                                                                                                              [0m[27m[24m[Jyuya@agatsumayuunarinoMacBook-Pro api % [K[?2004h[7mhistory[27m[27mh[27mi[27ms[27mt[27mo[27mr[27my[?2004l
+ 1399  docker-compose run --rm api rails dbconsole
+ 1400  docker-compose run --rm api rails dbconsole
+ 1401  docker-compose run --rm api rails dbconsole
+ 1402  docker-compose run --rm api rails dbconsole
+ 1403  docker-compose run --rm api rails dbconsole
+ 1404  docker-compose run --rm api rails dbconsole
+ 1405  docker-compose run --rm api rails dbconsole
+ 1406  docker-compose run --rm api rails dbconsole
+ 1407  docker-compose run --rm api rails dbconsole
+ 1408  docker-compose run --rm api rails dbconsole
+ 1409  docker-compose run --rm api rails dbconsole
+ 1410  docker-compose run --rm api rails dbconsole
+ 1411  docker-compose run --rm api rails dbconsole
+ 1412  docker-compose run --rm api rails dbconsole
+ 1413  docker-compose run --rm api rails dbconsole
+ 1414  docker-compose run --rm api rails dbconsole
+[1m[7m%[27m[1m[0m                                                                                                                                              [0m[27m[24m[Jyuya@agatsumayuunarinoMacBook-Pro api % [K[?2004hhistorydocker-compose run --rm api rails dbconsole[43Dhistory                                    [36Ddocker-compose run --rm api rails dbconsole[43Dhistory                                    [36D       historydocker-compose run --rm api rails dbconsole[9Dg model friendship[18Ddestroy model Friendships[25Dg[6P[18C      [19Ddbconsole          [10D[24D[5P[10Cgenerate controller Api::V1::Auth[43D--rm api rails dbconsole                   [19D[9Dg model Friendships[19Ddbconsole          [10D[9Dg model Friendships[19Ddestroy model Friendships[25Dg model f[6P[9C       [18Ddbconsole         [9D[9Dg model friendship[18Ddestroy model Friendships[25Dg[6P[18C      [19Ddbconsole          [10D[24D[5P[10Cgenerate controller Api::V1::Auth[41Dp[40C[46D[8P[38C        [8D[54D[15P[39C               
+[K[A[40Cdocker-compos[2Crails generate controller Api::V1::Auth[1B[K[A[94C[38Dun app rails generate controller Api::V1::Auth[41Di[40C[41Dp[40C[41Di[40C[43D--rm api rails dbconsole                   [19D[9Dg model Friendships[19Ddestroy model Friendships[25Dg model f[6P[9C       [9Dg model friendship[18D[9Dg model friendship[18Ddestroy model Friendships[25Dg[6P[18C      [19Ddbconsole          [10D[24D[5P[10Cgenerate controller Api::V1::Auth[41Dp[40C[46D[8P[38C        [8D[54D[15P[39C               [1B[K[K[A[40Cdocker-compos[2Cdown api                [1B[K[A[63C[23Drails generat[2Ccontroller Api::V1::Auth[1B[K[K[A[40Cdocker-compos[2Cdown api                [1B[K[A[63C[8Drestart api--rm api[15Dun[4P[9C rails db:migrate[10Dgenerate migration ChangeForeignKeyInTrophies[45Ddb:migrate                                   [35D[10Dg model trophies[16Ddestroy model trophies[21Db:migrate            [12D[9Destroy model trophies[22Dg[6P[1[46D[8P[38C        [8D[54D[15P[39C               [1B[K[K[A[40Cdocker-compos[2Cdown api                [1B[K[A[63C[23Drail[16Ddestroy model trophies[21Db:migrate            [12D[10Dgenerate migration ChangeForeignKeyInSubCategories[41Dcontroller api/v1/Sub_c[9P[9C         [9D[1C[P[11C [12D[P[11C [12D[P[11C [12DR_categories[11De_categories[11Dg_categories[11Di_categories[11Do_categories[11Dn_categories[11Ds_categories[11D[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C            s[?2004l[1B[1A[1B[0G[?25l[+] Running 1/0
+ [32m✔[0m Container myapp-db-1  [32mRunning[0m                                                                                                         [34m0.0s [0m
+[?25hRunning via Spring preloader in process 19
+[1m[32m      create[0m  app/controllers/api/v1/regions_controller.rb
+[1m[37m      invoke[0m  test_unit
+[1m[32m      create[0m    test/controllers/api/v1/regions_controller_test.rb
+[1m[7m%[27m[1m[0m                                                                                                                                              [0m[27m[24m[Jyuya@agatsumayuunarinoMacBook-Pro api % [K[?2004hdocker-compose run --rm api rails generate controller api/v1/Regions[68Dhistory                                                             [61Ddocker-compose run --rm api rails generate controller api/v1/Regions       Countries[?2004l
+[1A[1B[0G[?25l[+] Running 1/0
+ [32m✔[0m Container myapp-db-1  [32mRunning[0m                                                                                                         [34m0.0s [0m
+[?25hRunning via Spring preloader in process 19
+[1m[32m      create[0m  app/controllers/api/v1/countries_controller.rb
+[1m[37m      invoke[0m  test_unit
+[1m[32m      create[0m    test/controllers/api/v1/countries_controller_test.rb
+[1m[7m%[27m[1m[0m                                                                                                                                              [0m[27m[24m[Jyuya@agatsumayuunarinoMacBook-Pro api % [K[?2004hdocker-compose run --rm api rails generate controller api/v1/Countries         Prefectuesres[1C[1C[?2004l
+[1A[1B[0G[?25l[+] Running 1/0
+ [32m✔[0m Container myapp-db-1  [32mRunning[0m                                                                                                         [34m0.0s [0m
+[?25hRunning via Spring preloader in process 19
+[1m[32m      create[0m  app/controllers/api/v1/prefectures_controller.rb
+[1m[37m      invoke[0m  test_unit
+[1m[32m      create[0m    test/controllers/api/v1/prefectures_controller_test.rb
+[1m[7m%[27m[1m[0m                                                                                                                                              [0m[27m[24m[Jyuya@agatsumayuunarinoMacBook-Pro api % [K[?2004hdocker-compose run --rm api rails generate controller api/v1/Prefectures[11DCountries  [9DRegions  [68Dhistory                                                             [61Ddocker-compose run --rm api rails dbconsole       :seed[?2004l
+[1A[1B[0G[?25l[+] Running 1/0
+ [32m✔[0m Container myapp-db-1  [32mRunning[0m                                                                                                         [34m0.0s [0m
+[?25hRunning via Spring preloader in process 19
+users...
+users = 14
+categories = 34
+sub_categories = 33
+trophies = 32
+[1m[7m%[27m[1m[0m                                                                                                                                              [0m[27m[24m[Jyuya@agatsumayuunarinoMacBook-Pro api % [K[?2004hdocker-compose run --rm api rails db:seed    reset[?2004l
+[1A[1B[0G[?25l[+] Running 1/0
+ [32m✔[0m Container myapp-db-1  [32mRunning[0m                                                                                                         [34m0.0s [0m
+[?25hRunning via Spring preloader in process 19
+PG::ObjectInUse: ERROR:  database "app_development" is being accessed by other users
+DETAIL:  There is 1 other session using the database.
+Couldn't drop database 'app_development'
+rake aborted!
+ActiveRecord::StatementInvalid: PG::ObjectInUse: E    reset[?2004l
+[1A[1B[0G[?25l[+] Running 1/0
+ [32m✔[0m Container myapp-db-1  [32mRunning[0m                                                                                                         [34m0.0s [0m
+[?25hRunning via Spring preloader in process 19
+PG::ObjectInUse: ERROR:  database "app_development" is being accessed by other users
+DETAIL:  There is 1 other session using the database.
+Couldn't drop database 'app_development'
+rake aborted!
+ActiveRecord::StatementInvalid: PG::ObjectInUse: ERROR:  database "app_development" is being accessed by other users
+DETAIL:  There is 1 other session using the database.
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql/database_statements.rb:49:in `exec'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql/database_statements.rb:49:in `block (2 levels) in execute'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/dependencies/interlock.rb:48:in `block in permit_concurrent_loads'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/share_lock.rb:187:in `yield_shares'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/dependencies/interlock.rb:47:in `permit_concurrent_loads'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql/database_statements.rb:48:in `block in execute'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract_adapter.rb:696:in `block (2 levels) in log'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:26:in `block (2 levels) in synchronize'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `handle_interrupt'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `block in synchronize'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `handle_interrupt'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `synchronize'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract_adapter.rb:695:in `block in log'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract_adapter.rb:687:in `log'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql/database_statements.rb:47:in `execute'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql/schema_statements.rb:54:in `drop_database'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/tasks/postgresql_database_tasks.rb:32:in `drop'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/tasks/database_tasks.rb:199:in `drop'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/tasks/database_tasks.rb:214:in `block in drop_current'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/tasks/database_tasks.rb:506:in `block (2 levels) in each_current_configuration'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/tasks/database_tasks.rb:503:in `each'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/tasks/database_tasks.rb:503:in 7.2/lib/active_record/railties/databases.rake:64:in `block (2 levels) in <main>'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:10:in `block in fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:10:in `block in fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_supp7.2/lib/active_record/railties/databases.rake:64:in `block (2 levels) in <main>'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:10:in `block in fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:10:in `block in fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:27:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:27:in `fork'
+<internal:/usr/local/lib/ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:88:in `require'
+<internal:/usr/local/lib/ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:88:in `require'
+-e:1:in `<main>'
+
+Caused by:
+PG::ObjectInUse: ERROR:  database "app_development" is being accessed by other users
+DETAIL:  There is 1 other session using the database.
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql/database_statements.rb:49:in `exec'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql/database_statements.rb:49:in `block (2 levels) in execute'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/dependencies/interlock.rb:48:in `block in permit_concurrent_loads'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/share_lock.rb:187:in `yield_shares'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/dependencies/interlock.rb:47:in `permit_concurrent_loads'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql/database_statements.rb:48:in `block in execute'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract_adapter.rb:696:in `block (2 levels) in log'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:26:in `block (2 levels) in synchronize'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `handle_interrupt'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `block in synchronize'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `handle_interrupt'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `synchronize'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract_adapter.rb:695:in `block in log'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract_adapter.rb:687:in `log'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql/database_statements.rb:47:in `execute'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql/schema_statements.rb:54:in `drop_database'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/tasks/postgresql_database_tasks.rb:32:in `drop'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/tasks/database_tasks.rb:199:in `drop'
+/usrlib/active_record/tasks/database_tasks.rb:502:in `each'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/tasks/database_tasks.rb:502:in `each_current_configuration'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/tasks/database_tasks.rb:214:in `drop_current'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/railties/databases.rake:68:in `block (2 levels) in <main>'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/railties/databases.rake:64:in `block (2 levels) in <main>'
+/lib/active_record/tasks/database_tasks.rb:502:in `each'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/tasks/database_tasks.rb:502:in `each_current_configuration'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/tasks/database_tasks.rb:214:in `drop_current'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/railties/databases.rake:68:in `block (2 levels) in <main>'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/railties/databases.rake:64:in `block (2 levels) in <main>'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:10:in `block in fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:10:in `block in fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:27:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_trdocker-compose run --rm api rails db:reset[?2004l
+[1A[1B[0G[?25l[+] Running 1/0
+ [32m✔[0m Container myapp-db-1  [32mRunning[0m                                                                                                         [34m0.0s [0m
+[?25hRunning via Spring preloader in process 19
+Dropped database 'app_development'
+Dropped database 'app_test'
+Created database 'app_development'
+Created database 'app_test'
+users...
+users = 10
+categories = 30
+sub_categories = 30
+trophies = 30
+[1m[7m%[27m[1m[0m                                                                                                                                              [0m[27m[24m[Jyuya@agatsumayuunarinoMacBook-Pro api % [K[?2004hdocker-compose run --rm api rails db:reset[?2004l
+[1A[1B[0G[?25l[+] Running 1/0
+ [32m✔[0m Container myapp-db-1  [32mRunning[0m                                                                                                         [34m0.0s [0m
+[?25hRunning via Spring preloader in process 19
+PG::ObjectInUse: ERROR:  database "app_development" is being accessed by other users
+DETAIL:  There is 1 other session using the database.
+Couldn't drop database 'app_development'
+rake aborted!
+ActiveRecord::StatementInvalid: PG::ObjectInUse: ERROR:  database "app_development" is being accessed by other users
+DETAIL:  There is 1 other session using the database.
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql/database_statements.rb:49:Running via Spring preloader in process 19
+PG::ObjectInUse: ERROR:  database "app_development" is being accessed by other users
+DETAIL:  There is 1 other session using the database.
+Couldn't drop database 'app_development'
+rake aborted!
+ActiveRecord::StatementInvalid: PG::ObjectInUse: ERROR:  database "app_development" is being accessed by other users
+DETAIL:  There is 1 other session using the database.
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql/database_statements.rb:49:in `exec'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql/database_statements.rb:49:in `block (2 levels) in execute'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/dependencies/interlock.rb:48:in `block in permit_concurrent_loads'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/share_lock.rb:187:in `yield_shares'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/dependencies/interlock.rb:47:in `permit_concurrent_loads'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql/database_statements.rb:48:in `block in execute'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract_adapter.rb:696:in `block (2 levels) in log'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:26:in `block (2 levels) in synchronize'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `handle_interrupt'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `block in synchronize'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `handle_interrupt'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `synchronize'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract_adapter.rb:695:in `block in log'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract_adapter.rb:687:in `log'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql/database_statements.rb:47:in `execute'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql/schema_statements.rb:54:in `drop_database'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/tasks/postgresql_database_tasks.rb:32:in `drop'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/tasks/database_tasks.rb:199:in `drop'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/tasks/database_tasks.rb:214:in `block in drop_current'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/tasks/database_tasks.rb:506:in `block (2 levels) in each_current_configuration'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/tasks/database_tasks.rb:503:in `each'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/tasks/database_tasks.rb:503:in `block in each_current_configuration'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/tasks/database_tasks.rb:502:in `each'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/tasks/database_tasks.rb:502:in `each_curupport/fork_tracker.rb:10:in `block in fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:27:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:27:in `fork'
+<internal:/usr/local/upport/fork_tracker.rb:10:in `block in fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:27:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:27:in `fork'
+<internal:/usr/local/lib/ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:88:in `require'
+<internal:/usr/local/lib/ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:88:in `require'
+-e:1:in `<main>'
+
+Caused by:
+PG::ObjectInUse: ERROR:  database "app_development" is being accessed by other users
+DETAIL:  There is 1 other session using the database.
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql/database_statements.rb:49:in `exec'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql/database_statements.rb:49:in `block (2 levels) in execute'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/dependencies/interlock.rb:48:in `block in permit_concurrent_loads'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/share_lock.rb:187:in `yield_shares'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/dependencies/interlock.rb:47:in `permit_concurrent_loads'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql/database_statements.rb:48:in `block in execute'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract_adapter.rb:696:in `block (2 levels) in log'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:26:in `block (2 levels) in synchronize'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `handle_interrupt'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `block in synchronize'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `handle_interrupt'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `synchronize'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract_adapter.rb:695:in `block in log'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract_adapter.rb:687:in `log'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql/database_statements.rb:47:in `execute'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql/schema_statements.rb:54:in `drop_database'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/tasks/postgresql_database_tasks.rb:32:in `drop'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/tasks/database_tasks.rb:199:in `drop'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/tasks/database_tasks.rb:214:in `block in drop_current'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/tasks/database_tasks.rb:506:in `block (2 levels) in each_current_ctasks/database_tasks.rb:214:in `drop_current'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/railties/databases.rake:68:in `block (2 levels) in <main>'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/railties/databases.rake:64:in `block (2 levels) in <main>'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:10:in `block in fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:10:in `block in fork'
+/usr/local/bundle/gems/activesupport-tasks/database_tasks.rb:214:in `drop_current'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/railties/databases.rake:68:in `block (2 levels) in <main>'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/railties/databases.rake:64:in `block (2 levels) in <main>'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:10:in `block in fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:10:in `block in fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:27:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_trdocker-compose run --rm api rails db:reset[?2004l
+[1A[1B[0G[?25l[+] Running 1/0
+ [32m✔[0m Container myapp-db-1  [32mRunning[0m                                                                                                         [34m0.0s [0m
+[?25hRunning via Spring preloader in process 20
+PG::ObjectInUse: ERROR:  database "app_development" is being accessed by other users
+DETAIL:  There is 1 other session using the database.
+Couldn't drop database 'app_development'
+rake aborted!
+ActiveRecord::StatementInvalid: PG::ObjectInUse: ERROR:  database "app_development" is being accessed by other users
+DETAIL:  There is 1 other session using the database.
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql/database_statements.rb:49:Running via Spring preloader in process 20
+PG::ObjectInUse: ERROR:  database "app_development" is being accessed by other users
+DETAIL:  There is 1 other session using the database.
+Couldn't drop database 'app_development'
+rake aborted!
+ActiveRecord::StatementInvalid: PG::ObjectInUse: ERROR:  database "app_development" is being accessed by other users
+DETAIL:  There is 1 other session using the database.
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql/database_statements.rb:49:in `exec'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql/database_statements.rb:49:in `block (2 levels) in execute'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/dependencies/interlock.rb:48:in `block in permit_concurrent_loads'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/share_lock.rb:187:in `yield_shares'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/dependencies/interlock.rb:47:in `permit_concurrent_loads'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql/database_statements.rb:48:in `block in execute'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract_adapter.rb:696:in `block (2 levels) in log'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:26:in `block (2 levels) in synchronize'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `handle_interrupt'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `block in synchronize'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `handle_interrupt'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `synchronize'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract_adapter.rb:695:in `block in log'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract_adapter.rb:687:in `log'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql/database_statements.rb:47:in `execute'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql/schema_statements.rb:54:in `drop_database'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/tasks/postgresql_database_tasks.rb:32:in `drop'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/tasks/database_tasks.rb:199:in `drop'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/tasks/database_tasks.rb:214:in `block in drop_current'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/tasks/database_tasks.rb:506:in `block (2 levels) in each_current_configuration'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/tasks/database_tasks.rb:503:in `each'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/tasks/database_tasks.rb:503:in `block in each_cucord/railties/databases.rake:64:in `block (2 levels) in <main>'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:10:in `block in fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:10:in `block in fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:27:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:27:in `fork'
+<internal:/usr/local/upport/fork_tracker.rb:10:in `block in fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:27:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:27:in `fork'
+<internal:/usr/local/lib/ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:88:in `require'
+<internal:/usr/local/lib/ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:88:in `require'
+-e:1:in `<main>'
+
+Caused by:
+PG::ObjectInUse: ERROR:  database "app_development" is being accessed by other users
+DETAIL:  There is 1 other session using the database.
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql/database_statements.rb:49:in `exec'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql/database_statements.rb:49:in `block (2 levels) in execute'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/dependencies/interlock.rb:48:in `block in permit_concurrent_loads'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/share_lock.rb:187:in `yield_shares'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/dependencies/interlock.rb:47:in `permit_concurrent_loads'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql/database_statements.rb:48:in `block in execute'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract_adapter.rb:696:in `block (2 levels) in log'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:26:in `block (2 levels) in synchronize'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `handle_interrupt'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `block in synchronize'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `handle_interrupt'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `synchronize'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract_adapter.rb:695:in `block in log'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract_adapter.rb:687:in `log'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql/database_statements.rb:47:in `execute'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql/schema_statements.rb:54:in `drop_database'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/tasks/postgresql_database_tasks.rb:32:in `drop'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/tasks/database_tasks.rb:199:in `drop'
+/usr/local/bundle/gem/tasks/database_tasks.rb:502:in `each'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/tasks/database_tasks.rb:502:in `each_current_configuration'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/tasks/database_tasks.rb:214:in `drop_current'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/railties/databases.rake:68:in `block (2 levels) in <main>'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/railties/databases.rake:64:in `block (2 levels) in <main>'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:10:in `block in fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:10:in `block in fork'
+/usr/local/bundle/gems/activesupport-tasks/database_tasks.rb:214:in `drop_current'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/railties/databases.rake:68:in `block (2 levels) in <main>'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/railties/databases.rake:64:in `block (2 levels) in <main>'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:10:in `block in fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:10:in `block in fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:27:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_trdocker-compose run --rm api rails db:reset[?2004l
+[1A[1B[0G[?25l[+] Running 1/0
+ [32m✔[0m Container myapp-db-1  [32mCreated[0m                                                                                                         [34m0.0s [0m
+[?25h[1A[1B[0G[?25l[+] Running 0/0
+ ⠋ Container myapp-db-1  Starting                                                                                                        [34m0.1s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ ⠙ Container myapp-db-1  Starting docker-compose run --rm api rails db:reset[?2004l
+[1A[1B[0G[?25l[+] Running 1/0
+ [32m✔[0m Container myapp-db-1  [32mCreated[0m                                                                                                         [34m0.0s [0m
+[?25h[1A[1B[0G[?25l[+] Running 0/0
+ ⠋ Container myapp-db-1  Starting                                                                                                        [34m0.1s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ ⠙ Container myapp-db-1  Starting                                                                                                        [34m0.2s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ ⠹ Container myapp-db-1  Starting                                                                                                        [34m0.3s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ ⠸ Container myapp-db-1  Starting                                                                                                        [34m0.4s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ ⠼ Container myapp-db-1  Starting                                                                                                        [34m0.5s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ ⠴ Container myapp-db-1  Starting                                                                                                        [34m0.6s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ ⠦ Container myapp-db-1  Starting                                                                                                        [34m0.7s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ ⠧ Container myapp-db-1  Starting                                                                                                        [34m0.8s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ ⠇ Container myapp-db-1  Starting                                                                                                        [34m0.9s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ ⠏ Container myapp-db-1  Starting                                                                                                        [34m1.0s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ ⠋ Container myapp-db-1  Starting                                                                                                        [34m1.1s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ ⠙ Container myapp-db-1  Starting                                                                                                        [34m1.2s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ ⠹ Container myapp-db-1  Starting                                                                                                        [34m1.3s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ ⠸ Container myapp-db-1  Starting                                                                                                        [34m1.4s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ ⠼ Container myapp-db-1  Starting                                                                                                        [34m1.5s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ ⠴ Container myapp-db-1  Starting                                                                                                        [34m1.6s [0m
+Created database 'app_development'
+Created database 'app_test'
+users...
+sub_categories = 30
+trophies = 30
+[1m[7m%[27m[1m[0m                                                                                                                                              [0m[27m[24m[Jyuya@agatsumayuunarinoMacBook-Pro api % [K[?2004hdocker-compose run --rm api rails db:reset[?2004l
+[1A[1B[0G[?25l[+] Running 1/0
+ [32m✔[0m Container myapp-db-1  [32mRunning[0m                                                                                                         [34m0.0s [0m
+[?25hRunning via Spring preloader in process 20
+Dropped database 'app_development'
+Dropped database 'app_test'
+Created database 'app_development'
+Created database 'app_test'
+users...
+sub_categories = 30
+trophies = 30
+[1m[7m%[27m[1m[0m                                                                                                                                              [0m[27m[24m[Jyuya@agatsumayuunarinoMacBook-Pro api % [K[?2004hdocker-compose run --rm api rails db:reset[?2004l
+[1A[1B[0G[?25l[+] Running 1/0
+ [32m✔[0m Container myapp-db-1  [32mRunning[0m                                                                                                         [34m0.0s [0m
+[?25hRunning via Spring preloader in process 19
+Dropped database 'app_development'
+Dropped database 'app_test'
+Created database 'app_development'
+Created database 'app_test'
+users...
+users = 10
+countries = 1
+rake aborted!
+ActiveRecord::InvalidForeignKey: PG::ForeignKeyViolation: ERROR:  insert or update on table "sub_categories" violates foreign key constraint "fk_rails_8e75c2ee78"
+DETAIL:  Key (category_id)=(2) is not present in table "categories".
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql_adapter.rb:672:in `exec_params'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql_adapter.rb:672:in `block (2 levels) in users = 10
+countries = 1
+rake aborted!
+ActiveRecord::InvalidForeignKey: PG::ForeignKeyViolation: ERROR:  insert or update on table "sub_categories" violates foreign key constraint "fk_rails_8e75c2ee78"
+DETAIL:  Key (category_id)=(2) is not present in table "categories".
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql_adapter.rb:672:in `exec_params'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql_adapter.rb:672:in `block (2 levels) in exec_no_cache'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/dependencies/interlock.rb:48:in `block in permit_concurrent_loads'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/share_lock.rb:187:in `yield_shares'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/dependencies/interlock.rb:47:in `permit_concurrent_loads'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql_adapter.rb:671:in `block in exec_no_cache'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract_adapter.rb:696:in `block (2 levels) in log'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:26:in `block (2 levels) in synchronize'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `handle_interrupt'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `block in synchronize'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `handle_interrupt'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `synchronize'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract_adapter.rb:695:in `block in log'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract_adapter.rb:687:in `log'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql_adapter.rb:670:in `exec_no_cache'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql_adapter.rb:649:in `execute_and_clear'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql/database_statements.rb:55:in `exec_query'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract/database_statements.rb:136:in `exec_insert'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql/database_statements.rb:93:in `exec_insert'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract/database_statements.rb:171:in `insert'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract/query_cache.rb:22:in `insert'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/persistence.rb:375:in `_insert_record'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/persistence.rb:929:in `_create_record'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/counter_cache.rb:166:in `_create_record'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/locking/optimistic.rb:79:in `_eate_record'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/timestamp.rb:108:in `_create_record'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/persistence.rb:900:in `create_or_update'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/callbacks.rb:457:in `block in create_or_update'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/callbacks.rb:98:in `run_callbacks'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/callbacks.rb:824:in `_run_save_callbacks'
+/usr/locd'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/timestamp.rb:108:in `_create_record'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/persistence.rb:900:in `create_or_update'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/callbacks.rb:457:in `block in create_or_update'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/callbacks.rb:98:in `run_callbacks'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/callbacks.rb:824:in `_run_save_callbacks'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/callbacks.rb:457:in `create_or_update'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/timestamp.rb:126:in `create_or_update'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/persistence.rb:507:in `save!'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/validations.rb:53:in `save!'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/transactions.rb:302:in `block in save!'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/transactions.rb:354:in `block in with_transaction_returning_status'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract/database_statements.rb:320:in `block in transaction'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract/transaction.rb:319:in `block in within_new_transaction'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:26:in `block (2 levels) in synchronize'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `handle_interrupt'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `block in synchronize'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `handle_interrupt'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `synchronize'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract/transaction.rb:317:in `within_new_transaction'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract/database_statements.rb:320:in `transaction'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/transactions.rb:350:in `with_transaction_returning_status'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/transactions.rb:302:in `save!'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/suppressor.rb:48:in `save!'
+/app/db/seeds/development/users.rb:36:in `block in <main>'
+/app/db/seeds/development/users.rb:30:in `times'
+/app/db/seeds/development/users.rb:30:in `<main>'
+<internal:/usr/local/lib/ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:37:in `require'
+<internal:/usr/local/lib/ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:37:in `require'
+/usr/local/bundle/gems/bootsnap-1.16.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:32:in `require'
+/usr/local/bundle/gems/zeitwerk-2.6.7/lib/zeitwerk/kernel.rb:38:in `require'
+/app/db/seeds.rb:12:in `block in <main>'
+/app/db/seeds.rb:5:in `each'
+/app/db/seeds.rb:5:in `<main>'
+/usr/local/bundle/gems/railties-6.1.7.2/lib/rails/engine.rb:566:in `load'
+/usr/local/bundle/gems/railties-6.1.7.2/lib/rails/engine.rb:566:in `block in load_seed'
+/usr/local/bundle/gems/activesupport-6.1.7.2/e_support/callbacks.rb:137:in `run_callbacks'
+/usr/local/bundle/gems/railties-6.1.7.2/lib/rails/engine.rb:566:in `load_seed'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/tasks/database_tasks.rb:450:in `load_seed'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/railties/databases.rake:392:in `block (2 levels) in <main>'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:10:in `block in fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:10:incallbacks.rb:137:in `run_callbacks'
+/usr/local/bundle/gems/railties-6.1.7.2/lib/rails/engine.rb:566:in `load_seed'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/tasks/database_tasks.rb:450:in `load_seed'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/railties/databases.rake:392:in `block (2 levels) in <main>'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:10:in `block in fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:10:in `block in fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:27:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:27:in `fork'
+<internal:/usr/local/lib/ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:88:in `require'
+<internal:/usr/local/lib/ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:88:in `require'
+-e:1:in `<main>'
+
+Caused by:
+PG::ForeignKeyViolation: ERROR:  insert or update on table "sub_categories" violates foreign key constraint "fk_rails_8e75c2ee78"
+DETAIL:  Key (category_id)=(2) is not present in table "categories".
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql_adapter.rb:672:in `exec_params'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql_adapter.rb:672:in `block (2 levels) in exec_no_cache'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/dependencies/interlock.rb:48:in `block in permit_concurrent_loads'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/share_lock.rb:187:in `yield_shares'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/dependencies/interlock.rb:47:in `permit_concurrent_loads'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql_adapter.rb:671:in `block in exec_no_cache'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract_adapter.rb:696:in `block (2 levels) in log'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:26:in `block (2 levels) in synchronize'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `handle_interrupt'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `block in synchronize'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `handle_interrupt'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `synchronize'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract_adapter.rb:695:in `block in log'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract_adapter.rb:687:in `log'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql_adapter.rb:670:in `exec_no_cache'
+/usr/local/bundle/gems/activerecord-6.cord-6.1.7.2/lib/active_record/connection_adapters/abstract/database_statements.rb:171:in `insert'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract/query_cache.rb:22:in `insert'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/persistence.rb:375:in `_insert_record'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/persistence.rb:929:in `_create_record'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/counter_cache.rb:166:in `_create_record'
+/usr/local/bun.2/lib/active_record/connection_adapters/abstract/database_statements.rb:171:in `insert'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract/query_cache.rb:22:in `insert'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/persistence.rb:375:in `_insert_record'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/persistence.rb:929:in `_create_record'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/counter_cache.rb:166:in `_create_record'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/locking/optimistic.rb:79:in `_create_record'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/attribute_methods/dirty.rb:201:in `_create_record'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/callbacks.rb:461:in `block in _create_record'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/callbacks.rb:98:in `run_callbacks'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/callbacks.rb:824:in `_run_create_callbacks'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/callbacks.rb:461:in `_create_record'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/timestamp.rb:108:in `_create_record'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/persistence.rb:900:in `create_or_update'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/callbacks.rb:457:in `block in create_or_update'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/callbacks.rb:98:in `run_callbacks'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/callbacks.rb:824:in `_run_save_callbacks'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/callbacks.rb:457:in `create_or_update'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/timestamp.rb:126:in `create_or_update'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/persistence.rb:507:in `save!'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/validations.rb:53:in `save!'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/transactions.rb:302:in `block in save!'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/transactions.rb:354:in `block in with_transaction_returning_status'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract/database_statements.rb:320:in `block in transaction'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract/transaction.rb:319:in `block in within_new_transaction'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:26:in `block (2 levels) in synchronize'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `handle_interrupt'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `block in synchronize'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `handle_interrupt'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `synchronize'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract/transaction.rb:317:in `within_new_transaction'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract/database_statements.rb:320:in `transactirequire.rb>:37:in `require'
+<internal:/usr/local/lib/ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:37:in `require'
+/usr/local/bundle/gems/bootsnap-1.16.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:32:in `require'
+/usr/local/bundle/gems/zeitwerk-2.6.7/lib/zeitwerk/kernel.rb:38:in `require'
+/app/db/seeds.rb:12:in `block in <main>'
+/app/db/seeds.rb:5:in `each'
+/app/db/seeds.rb:5:in `<main>'
+/usr/local/bundle/gems/railties-6.1.7.2/lib/rails/engine.rb:566:in `load'
+/usr/local/bundle/gems/railties-6.1.7.2/lib/rails/engine>:37:in `require'
+<internal:/usr/local/lib/ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:37:in `require'
+/usr/local/bundle/gems/bootsnap-1.16.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:32:in `require'
+/usr/local/bundle/gems/zeitwerk-2.6.7/lib/zeitwerk/kernel.rb:38:in `require'
+/app/db/seeds.rb:12:in `block in <main>'
+/app/db/seeds.rb:5:in `each'
+/app/db/seeds.rb:5:in `<main>'
+/usr/local/bundle/gems/railties-6.1.7.2/lib/rails/engine.rb:566:in `load'
+/usr/local/bundle/gems/railties-6.1.7.2/lib/rails/engine.rb:566:in `block in load_seed'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/callbacks.rb:117:in `block in run_callbacks'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/execution_wrapper.rb:91:in `wrap'
+/usr/local/bundle/gems/railties-6.1.7.2/lib/rails/engine.rb:640:in `block (2 levels) in <class:Engine>'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/callbacks.rb:126:in `instance_exec'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/callbacks.rb:126:in `block in run_callbacks'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/callbacks.rb:137:in `run_callbacks'
+/usr/local/bundle/gems/railties-6.1.7.2/lib/rails/engine.rb:566:in `load_seed'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/tasks/database_tasks.rb:450:in `load_seed'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/railties/databases.rake:392:in `block (2 levels) in <main>'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:10:in `block in fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:10:in `block in fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:27:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:27:in `docker-compose run --rm api rails db:reset[?2004l
+[1A[1B[0G[?25l[+] Running 1/0
+ [32m✔[0m Container myapp-db-1  [32mRunning[0m                                                                                                         [34m0.0s [0m
+[?25hRunning via Spring preloader in process 19
+Dropped database 'app_development'
+Dropped database 'app_test'
+Created database 'app_development'
+Created database 'app_test'
+users...
+users = 10
+countries = 1
+rake aborted!
+ActiveRecord::InvalidForeignKey: PG::ForeignKeyViolation: ERROR:  insert or update on table "sub_categories" violates foreign key constraint "fk_rails_8e75c2ee78"
+DETAIL:  Key (category_id)=(2) is not present in table "categories".
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_aRunning via Spring preloader in process 19
+Dropped database 'app_development'
+Dropped database 'app_test'
+Created database 'app_development'
+Created database 'app_test'
+users...
+users = 10
+countries = 1
+rake aborted!
+ActiveRecord::InvalidForeignKey: PG::ForeignKeyViolation: ERROR:  insert or update on table "sub_categories" violates foreign key constraint "fk_rails_8e75c2ee78"
+DETAIL:  Key (category_id)=(2) is not present in table "categories".
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql_adapter.rb:672:in `exec_params'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql_adapter.rb:672:in `block (2 levels) in exec_no_cache'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/dependencies/interlock.rb:48:in `block in permit_concurrent_loads'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/share_lock.rb:187:in `yield_shares'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/dependencies/interlock.rb:47:in `permit_concurrent_loads'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql_adapter.rb:671:in `block in exec_no_cache'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract_adapter.rb:696:in `block (2 levels) in log'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:26:in `block (2 levels) in synchronize'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `handle_interrupt'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `block in synchronize'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `handle_interrupt'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `synchronize'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract_adapter.rb:695:in `block in log'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract_adapter.rb:687:in `log'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql_adapter.rb:670:in `exec_no_cache'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql_adapter.rb:649:in `execute_and_clear'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql/database_statements.rb:55:in `exec_query'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract/database_statements.rb:136:in `exec_insert'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql/database_statements.rb:93:in `exec_insert'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract/database_statements.rb:171:in `insert'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract/query_cache.rb:22:in `insert'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/persistence.rb:375:in `_insert_record'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/persistence.rb:929:in `_create_record'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/counter_cache.rb:166:in `_create_record'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/locking/optimistic.rb:79:in `_create_recd'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/timestamp.rb:108:in `_create_record'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/persistence.rb:900:in `create_or_update'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/callbacks.rb:457:in `block in create_or_update'
+/usr/local/bundle/gems/activesus/activesupport-6.1.7.2/lib/active_support/callbacks.rb:824:in `_run_create_callbacks'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/callbacks.rb:461:in `_create_record'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/timestamp.rb:108:in `_create_record'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/persistence.rb:900:in `create_or_update'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/callbacks.rb:457:in `block in create_or_update'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/callbacks.rb:98:in `run_callbacks'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/callbacks.rb:824:in `_run_save_callbacks'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/callbacks.rb:457:in `create_or_update'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/timestamp.rb:126:in `create_or_update'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/persistence.rb:507:in `save!'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/validations.rb:53:in `save!'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/transactions.rb:302:in `block in save!'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/transactions.rb:354:in `block in with_transaction_returning_status'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract/database_statements.rb:320:in `block in transaction'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract/transaction.rb:319:in `block in within_new_transaction'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:26:in `block (2 levels) in synchronize'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `handle_interrupt'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `block in synchronize'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `handle_interrupt'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `synchronize'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract/transaction.rb:317:in `within_new_transaction'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract/database_statements.rb:320:in `transaction'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/transactions.rb:350:in `with_transaction_returning_status'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/transactions.rb:302:in `save!'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/suppressor.rb:48:in `save!'
+/app/db/seeds/development/users.rb:36:in `block in <main>'
+/app/db/seeds/development/users.rb:30:in `times'
+/app/db/seeds/development/users.rb:30:in `<main>'
+<internal:/usr/local/lib/ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:37:in `require'
+<internal:/usr/local/lib/ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:37:in `require'
+/usr/local/bundle/gems/bootsnap-1.16.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:32:in `require'
+/usr/local/bundle/gems/zeitwerk-2.6.7/lib/zeitwerk/kernel.rb:38:in `require'
+/app/db/seeds.rb:12:in `block in <main>'
+/app/db/seeds.rb:5:in `each'
+/app/db/seeds.rb:5:in `<main>'
+/usr/local/bundle/gems/railties-6.1.7.2/lib/rails/engine.rb:566:in `load'
+/usr/local/bundle/gems/railties-6.1.7.2/lib/rails/engine.rb:566:in `block in load_seed'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/activecallbacks.rb:137:in `run_callbacks'
+/usr/local/bundle/gems/railties-6.1.7.2/lib/rails/engine.rb:566:in `load_seed'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/tasks/database_tasks.rb:450:in `load_seed'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/railties/databases.rake:392:in `block (2 levels) in <main>'
+/usrce_exec'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/callbacks.rb:126:in `block in run_callbacks'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/callbacks.rb:137:in `run_callbacks'
+/usr/local/bundle/gems/railties-6.1.7.2/lib/rails/engine.rb:566:in `load_seed'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/tasks/database_tasks.rb:450:in `load_seed'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/railties/databases.rake:392:in `block (2 levels) in <main>'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:10:in `block in fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:10:in `block in fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:27:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:27:in `fork'
+<internal:/usr/local/lib/ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:88:in `require'
+<internal:/usr/local/lib/ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:88:in `require'
+-e:1:in `<main>'
+
+Caused by:
+PG::ForeignKeyViolation: ERROR:  insert or update on table "sub_categories" violates foreign key constraint "fk_rails_8e75c2ee78"
+DETAIL:  Key (category_id)=(2) is not present in table "categories".
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql_adapter.rb:672:in `exec_params'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql_adapter.rb:672:in `block (2 levels) in exec_no_cache'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/dependencies/interlock.rb:48:in `block in permit_concurrent_loads'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/share_lock.rb:187:in `yield_shares'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/dependencies/interlock.rb:47:in `permit_concurrent_loads'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql_adapter.rb:671:in `block in exec_no_cache'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract_adapter.rb:696:in `block (2 levels) in log'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:26:in `block (2 levels) in synchronize'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `handle_interrupt'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `block in synchronize'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `handle_interrupt'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `synchronize'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract_adapter.rb:695:in `block in log'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract_adapter.rb:687:in `log'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql_adapter.rb:670:in `exec_no_cache'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/.2/lib/active_record/connection_adapters/abstract/database_statements.rb:171:in `insert'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract/query_cache.rb:22:in `insert'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/persistence.rb:375:in `_insert_record'
+/usr/local/bundle/gems/activerecord-ert'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql/database_statements.rb:93:in `exec_insert'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract/database_statements.rb:171:in `insert'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract/query_cache.rb:22:in `insert'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/persistence.rb:375:in `_insert_record'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/persistence.rb:929:in `_create_record'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/counter_cache.rb:166:in `_create_record'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/locking/optimistic.rb:79:in `_create_record'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/attribute_methods/dirty.rb:201:in `_create_record'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/callbacks.rb:461:in `block in _create_record'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/callbacks.rb:98:in `run_callbacks'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/callbacks.rb:824:in `_run_create_callbacks'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/callbacks.rb:461:in `_create_record'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/timestamp.rb:108:in `_create_record'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/persistence.rb:900:in `create_or_update'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/callbacks.rb:457:in `block in create_or_update'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/callbacks.rb:98:in `run_callbacks'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/callbacks.rb:824:in `_run_save_callbacks'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/callbacks.rb:457:in `create_or_update'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/timestamp.rb:126:in `create_or_update'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/persistence.rb:507:in `save!'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/validations.rb:53:in `save!'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/transactions.rb:302:in `block in save!'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/transactions.rb:354:in `block in with_transaction_returning_status'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract/database_statements.rb:320:in `block in transaction'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract/transaction.rb:319:in `block in within_new_transaction'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:26:in `block (2 levels) in synchronize'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `handle_interrupt'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `block in synchronize'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `handle_interrupt'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `synchronize'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract/transaction.rb:317:in `within_new_transaction'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract/database_statements.rb:320:in `transaction'
+/usr/>:37:in `require'
+<internal:/usr/local/lib/ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:37:in `require'
+/usr/local/bundle/gems/bootsnap-1.16.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:32:in `require'
+/usr/local/bundle/gems/zeitwerk-2.6.7/lib/zeitwerk/kernel.rb:38:in `require'
+/app/db/seeds.rb:12:in `block in <main>'
+/app/db/seeds.rb:5:in `each'
+/app/db/seeds.rb:5:in `<main>'
+/usr/local/bundle/gems/railties-6.1.7.2/lib/rails/engine.rb:566:in `load'
+/usr/local/bundle/gems/railties-6.1.7.2/lib/rails/engine.rb:566:in `block in load_seed'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/callbacks.rb:117:in `block in run_callbacks'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/execution_wrapper.rb:91:in `wrap'
+/usr/local/bundle/gems/railties-6.1.7.2/lib/rails/engine.rb:640:in `block (2 levels) in <class:Engine>'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/callbacks.rb:126:in `instance_exec'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/callbacks.rb:126:in `block in run_callbacks'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/callbacks.rb:137:in `run_callbacks'
+/usr/local/bundle/gems/railties-6.1.7.2/lib/rails/engine.rb:566:in `load_seed'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/tasks/database_tasks.rb:450:in `load_seed'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/railties/databases.rake:392:in `block (2 levels) in <main>'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:10:in `block in fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:10:in `block in fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:27:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:27:in `fork'
+<internal:/usr/local/lib/ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:88:in `require'
+<internal:/usr/local/lib/ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:88:in `require'
+-e:1:in `<main>'
+Tasks: TOP => db:reset => db:setup => db:seed
+(See full trace by running task with --trace)
+[1m[7m%[27m[1m[0m                                                                                                                                              [0m[27m[24m[Jyuya@agatsumayuunarinoMacBook-Pro api % [K[?2004hdocker-compose run --rm api rails db:reset[?2004l
+[1A[1B[0G[?25l[+] Running 1/0
+ [32m✔[0m Container myapp-db-1  [32mRunning[0m                                                                                                         [34m0.0s [0m
+[?25hRunning via Spring preloader in process 19
+Dropped database 'app_development'
+Dropped database 'app_test'
+Created database 'app_development'
+Created database 'app_test'
+users...
+users = 10
+countries = 1
+rake aborted!
+ActiveRecord::StatementInvalid: PG::SyntaxError: ERROR:  syntax error at or near ";"
+LINE 3: ;
+        ^
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql/database_statements.rb:49:in `exec'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connectiRunning via Spring preloader in process 19
+Dropped database 'app_development'
+Dropped database 'app_test'
+Created database 'app_development'
+Created database 'app_test'
+users...
+users = 10
+countries = 1
+rake aborted!
+ActiveRecord::StatementInvalid: PG::SyntaxError: ERROR:  syntax error at or near ";"
+LINE 3: ;
+        ^
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql/database_statements.rb:49:in `exec'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql/database_statements.rb:49:in `block (2 levels) in execute'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/dependencies/interlock.rb:48:in `block in permit_concurrent_loads'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/share_lock.rb:187:in `yield_shares'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/dependencies/interlock.rb:47:in `permit_concurrent_loads'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql/database_statements.rb:48:in `block in execute'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract_adapter.rb:696:in `block (2 levels) in log'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:26:in `block (2 levels) in synchronize'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `handle_interrupt'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `block in synchronize'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `handle_interrupt'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `synchronize'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract_adapter.rb:695:in `block in log'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract_adapter.rb:687:in `log'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql/database_statements.rb:47:in `execute'
+/app/db/seeds/development/users.rb:47:in `<main>'
+<internal:/usr/local/lib/ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:37:in `require'
+<internal:/usr/local/lib/ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:37:in `require'
+/usr/local/bundle/gems/bootsnap-1.16.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:32:in `require'
+/usr/local/bundle/gems/zeitwerk-2.6.7/lib/zeitwerk/kernel.rb:38:in `require'
+/app/db/seeds.rb:12:in `block in <main>'
+/app/db/seeds.rb:5:in `each'
+/app/db/seeds.rb:5:in `<main>'
+/usr/local/bundle/gems/railties-6.1.7.2/lib/rails/engine.rb:566:in `load'
+/usr/local/bundle/gems/railties-6.1.7.2/lib/rails/engine.rb:566:in `block in load_seed'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/callbacks.rb:117:in `block in run_callbacks'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/execution_wrapper.rb:91:in `wrap'
+/usr/local/bundle/gems/railties-6.1.7.2/lib/rails/engine.rb:640:in `block (2 levels) in <class:Engine>'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/callbacks.rb:126:in `instance_exec'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/callbacks.rb:126:in `block in run_callbacks'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/callbacks.rb:137:in `run_callbackle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:27:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in 6.1.7.2/lib/active_support/fork_tracker.rb:10:in `block in fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:10:in `block in fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:27:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:27:in `fork'
+<internal:/usr/local/lib/ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:88:in `require'
+<internal:/usr/local/lib/ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:88:in `require'
+-e:1:in `<main>'
+
+Caused by:
+PG::SyntaxError: ERROR:  syntax error at or near ";"
+LINE 3: ;
+        ^
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql/database_statements.rb:49:in `exec'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql/database_statements.rb:49:in `block (2 levels) in execute'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/dependencies/interlock.rb:48:in `block in permit_concurrent_loads'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/share_lock.rb:187:in `yield_shares'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/dependencies/interlock.rb:47:in `permit_concurrent_loads'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql/database_statements.rb:48:in `block in execute'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract_adapter.rb:696:in `block (2 levels) in log'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:26:in `block (2 levels) in synchronize'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `handle_interrupt'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `block in synchronize'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `handle_interrupt'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `synchronize'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract_adapter.rb:695:in `block in log'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract_adapter.rb:687:in `log'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql/database_statements.rb:47:in `execute'
+/app/db/seeds/development/users.rb:47:in `<main>'
+<internal:/usr/local/lib/ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:37:in `require'
+<internal:/usr/local/lib/ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:37:in `require'
+/usr/local/bundle/gems/bootsnap-1.16.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:32:in `require'
+/usr/local/bundle/gems/zeitwerk-2.6.7/lib/zeitwerk/kernel.rb:38:in `require'
+/app/db/seeds.rb:12:in `block in <main>'
+/app/db/seeds.rb:5:in `each'
+/app/db/seeds.rb:5:in `<main>'
+/usr/local/bundle/gems/railties-6.1.7.2/lib/rails/engine.rb:566:in `load'
+/usr/local/bundle/gems/railties-6.1.7.2/lib/rails/engine.rb:566:in `block in load_seed'
+/usr/local/bundle/gems/activesup7.2/lib/active_support/callbacks.rb:137:in `run_callbacks'
+/usr/local/bundle/gems/railties-6.1.7.2/lib/rails/engine.rb:566:in `load_seed'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/tasks/database_tasks.rb:450:in `load_seed'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/railties/databases.rake:392:in `block (2 levels) in <main>'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:10:in `block in fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:10:in `block in fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:27:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:27:in `fork'
+<internal:/usr/local/lib/ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:88:in `require'
+<internal:/usr/local/lib/ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:88:in `require'
+-e:1:in `<main>'
+Tasks: TOP => db:reset => db:setup => db:seed
+(See full trace by running task with --trace)
+[1m[7m%[27m[1m[0m                                                                                                                                              [0m[27m[24m[Jyuya@agatsumayuunarinoMacBook-Pro api % [K[?2004hdocker-compose run --rm api rails db:reset[?2004l
+[1A[1B[0G[?25l[+] Running 1/0
+ [32m✔[0m Container myapp-db-1  [32mRunning[0m                                                                                                         [34m0.0s [0m
+[?25hRunning via Spring preloader in process 19
+Dropped database 'app_development'
+Dropped database 'app_test'
+Created database 'app_development'
+Created database 'app_test'
+users...
+users = 10
+countries = 1
+rake aborted!
+ActiveRecord::StatementInvalid: PG::SyntaxError: ERROR:  syntax error at or near ";"
+LINE 3: ;
+        ^
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql/database_statements.rb:49:in `exec'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql/database_statements.rb:49:in `block (2 levels) in execute'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/dependencies/interlock.rb:48:in `blocusers = 10
+countries = 1
+rake aborted!
+ActiveRecord::StatementInvalid: PG::SyntaxError: ERROR:  syntax error at or near ";"
+LINE 3: ;
+        ^
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql/database_statements.rb:49:in `exec'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql/database_statements.rb:49:in `block (2 levels) in execute'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/dependencies/interlock.rb:48:in `block in permit_concurrent_loads'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/share_lock.rb:187:in `yield_shares'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/dependencies/interlock.rb:47:in `permit_concurrent_loads'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql/database_statements.rb:48:in `block in execute'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract_adapter.rb:696:in `block (2 levels) in log'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:26:in `block (2 levels) in synchronize'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `handle_interrupt'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `block in synchronize'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `handle_interrupt'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `synchronize'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract_adapter.rb:695:in `block in log'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract_adapter.rb:687:in `log'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql/database_statements.rb:47:in `execute'
+/app/db/seeds/development/users.rb:45:in `<main>'
+<internal:/usr/local/lib/ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:37:in `require'
+<internal:/usr/local/lib/ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:37:in `require'
+/usr/local/bundle/gems/bootsnap-1.16.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:32:in `require'
+/usr/local/bundle/gems/zeitwerk-2.6.7/lib/zeitwerk/kernel.rb:38:in `require'
+/app/db/seeds.rb:12:in `block in <main>'
+/app/db/seeds.rb:5:in `each'
+/app/db/seeds.rb:5:in `<main>'
+/usr/local/bundle/gems/railties-6.1.7.2/lib/rails/engine.rb:566:in `load'
+/usr/local/bundle/gems/railties-6.1.7.2/lib/rails/engine.rb:566:in `block in load_seed'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/callbacks.rb:117:in `block in run_callbacks'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/execution_wrapper.rb:91:in `wrap'
+/usr/local/bundle/gems/railties-6.1.7.2/lib/rails/engine.rb:640:in `block (2 levels) in <class:Engine>'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/callbacks.rb:126:in `instance_exec'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/callbacks.rb:126:in `block in run_callbacks'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/callbacks.rb:137:in `rulocal/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:27:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:27:in `fork'
+<internal:/usr/local/lib/ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:88:in `rele/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:27:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:27:in `fork'
+<internal:/usr/local/lib/ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:88:in `require'
+<internal:/usr/local/lib/ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:88:in `require'
+-e:1:in `<main>'
+
+Caused by:
+PG::SyntaxError: ERROR:  syntax error at or near ";"
+LINE 3: ;
+        ^
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql/database_statements.rb:49:in `exec'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql/database_statements.rb:49:in `block (2 levels) in execute'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/dependencies/interlock.rb:48:in `block in permit_concurrent_loads'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/share_lock.rb:187:in `yield_shares'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/dependencies/interlock.rb:47:in `permit_concurrent_loads'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql/database_statements.rb:48:in `block in execute'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract_adapter.rb:696:in `block (2 levels) in log'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:26:in `block (2 levels) in synchronize'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `handle_interrupt'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `block in synchronize'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `handle_interrupt'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `synchronize'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract_adapter.rb:695:in `block in log'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract_adapter.rb:687:in `log'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql/database_statements.rb:47:in `execute'
+/app/db/seeds/development/users.rb:45:in `<main>'
+<internal:/usr/local/lib/ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:37:in `require'
+<internal:/usr/local/lib/ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:37:in `require'
+/usr/local/bundle/gems/bootsnap-1.16.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:32:in `require'
+/usr/local/bundle/gems/zeitwerk-2.6.7/lib/zeitwerk/kernel.rb:38:in `require'
+/app/db/seeds.rb:12:in `block in <main>'
+/app/db/seeds.rb:5:in `each'
+/app/db/seeds.rb:5:in `<main>'
+/usr/local/bundle/gems/railties-6.1.7.2/lib/rails/engine.rb:566:in `load'
+/usr/local/bundle/gems/railties-6.1.7.2/lib/rails/engine.rb:566:in `block in load_seed'
+/usr/local/bundle/gemspport-6.1.7.2/lib/active_support/callbacks.rb:137:in `run_callbacks'
+/usr/local/bundle/gems/railties-6.1.7.2/lib/rails/engine.rb:566:in `load_seed'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/tasks/database_tasks.rb:450:in `load_seed'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/railties/databases.rake:392:in `block (2 levels) in <main>'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:10:in `block in fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_suppor7.2/lib/active_support/callbacks.rb:137:in `run_callbacks'
+/usr/local/bundle/gems/railties-6.1.7.2/lib/rails/engine.rb:566:in `load_seed'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/tasks/database_tasks.rb:450:in `load_seed'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/railties/databases.rake:392:in `block (2 levels) in <main>'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:10:in `block in fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:10:in `block in fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:27:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:27:in `docker-compose run --rm api rails db:reset[?2004l
+[1A[1B[0G[?25l[+] Running 1/0
+ [32m✔[0m Container myapp-db-1  [32mRunning[0m                                                                                                         [34m0.0s [0m
+[?25hRunning via Spring preloader in process 19
+Dropped database 'app_development'
+Dropped database 'app_test'
+Created database 'app_development'
+Created database 'app_test'
+users...
+users = 10
+countries = 1
+rake aborted!
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "‘観光’" does not exist
+LINE 2:     VALUES (‘観光’, NOW(), NOW()),(‘食べ物’, NOW(), NOW());
+                    ^
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql/database_stRunning via Spring preloader in process 19
+Dropped database 'app_development'
+Dropped database 'app_test'
+Created database 'app_development'
+Created database 'app_test'
+users...
+users = 10
+countries = 1
+rake aborted!
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column "‘観光’" does not exist
+LINE 2:     VALUES (‘観光’, NOW(), NOW()),(‘食べ物’, NOW(), NOW());
+                    ^
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql/database_statements.rb:49:in `exec'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql/database_statements.rb:49:in `block (2 levels) in execute'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/dependencies/interlock.rb:48:in `block in permit_concurrent_loads'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/share_lock.rb:187:in `yield_shares'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/dependencies/interlock.rb:47:in `permit_concurrent_loads'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql/database_statements.rb:48:in `block in execute'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract_adapter.rb:696:in `block (2 levels) in log'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:26:in `block (2 levels) in synchronize'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `handle_interrupt'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `block in synchronize'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `handle_interrupt'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `synchronize'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract_adapter.rb:695:in `block in log'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract_adapter.rb:687:in `log'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql/database_statements.rb:47:in `execute'
+/app/db/seeds/development/users.rb:44:in `<main>'
+<internal:/usr/local/lib/ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:37:in `require'
+<internal:/usr/local/lib/ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:37:in `require'
+/usr/local/bundle/gems/bootsnap-1.16.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:32:in `require'
+/usr/local/bundle/gems/zeitwerk-2.6.7/lib/zeitwerk/kernel.rb:38:in `require'
+/app/db/seeds.rb:12:in `block in <main>'
+/app/db/seeds.rb:5:in `each'
+/app/db/seeds.rb:5:in `<main>'
+/usr/local/bundle/gems/railties-6.1.7.2/lib/rails/engine.rb:566:in `load'
+/usr/local/bundle/gems/railties-6.1.7.2/lib/rails/engine.rb:566:in `block in load_seed'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/callbacks.rb:117:in `block in run_callbacks'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/execution_wrapper.rb:91:in `wrap'
+/usr/local/bundle/gems/railties-6.1.7.2/lib/rails/engine.rb:640:in `block (2 levels) in <class:Engine>'
+/usr/local/bundle/gems/activilties/databases.rake:392:in `block (2 levels) in <main>'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:10:in `block in fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:10:in `block in fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:27:ilties/databases.rake:392:in `block (2 levels) in <main>'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:10:in `block in fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:10:in `block in fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:27:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:27:in `fork'
+<internal:/usr/local/lib/ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:88:in `require'
+<internal:/usr/local/lib/ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:88:in `require'
+-e:1:in `<main>'
+
+Caused by:
+PG::UndefinedColumn: ERROR:  column "‘観光’" does not exist
+LINE 2:     VALUES (‘観光’, NOW(), NOW()),(‘食べ物’, NOW(), NOW());
+                    ^
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql/database_statements.rb:49:in `exec'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql/database_statements.rb:49:in `block (2 levels) in execute'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/dependencies/interlock.rb:48:in `block in permit_concurrent_loads'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/share_lock.rb:187:in `yield_shares'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/dependencies/interlock.rb:47:in `permit_concurrent_loads'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql/database_statements.rb:48:in `block in execute'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract_adapter.rb:696:in `block (2 levels) in log'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:26:in `block (2 levels) in synchronize'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `handle_interrupt'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `block in synchronize'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `handle_interrupt'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `synchronize'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract_adapter.rb:695:in `block in log'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract_adapter.rb:687:in `log'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql/database_statements.rb:47:in `execute'
+/app/db/seeds/development/users.rb:44:in `<main>'
+<internal:/usr/local/lib/ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:37:in `require'
+<internal:/usr/local/lib/ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:37:in `require'
+/usr/local/bundle/gems/bootsnap-1.16.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:32:in `require'
+/ur.rb:91:in `wrap'
+/usr/local/bundle/gems/railties-6.1.7.2/lib/rails/engine.rb:640:in `block (2 levels) in <class:Engine>'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/callbacks.rb:126:in `instance_exec'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/callbacks.rb:126:in `block in run_callbacks'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/callbacks.rb:137:in `run_callbacks'
+/usr/local/bundle/gems/railties-6.1.7.2/lib/rails/engine.rb:566:in `load_seed'
+/usr/local/bundle/r.rb:91:in `wrap'
+/usr/local/bundle/gems/railties-6.1.7.2/lib/rails/engine.rb:640:in `block (2 levels) in <class:Engine>'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/callbacks.rb:126:in `instance_exec'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/callbacks.rb:126:in `block in run_callbacks'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/callbacks.rb:137:in `run_callbacks'
+/usr/local/bundle/gems/railties-6.1.7.2/lib/rails/engine.rb:566:in `load_seed'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/tasks/database_tasks.rb:450:in `load_seed'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/railties/databases.rake:392:in `block (2 levels) in <main>'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:10:in `block in fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:10:in `block in fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:27:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:27:in `docker-compose run --rm api rails db:reset[?2004l
+[1A[1B[0G[?25l[+] Running 1/0
+ [32m✔[0m Container myapp-db-1  [32mRunning[0m                                                                                                         [34m0.0s [0m
+[?25hRunning via Spring preloader in process 19
+Dropped database 'app_development'
+Dropped database 'app_test'
+Created database 'app_development'
+Created database 'app_test'
+users...
+users = 10
+countries = 1
+sub_categories = 30
+rake aborted!
+ActiveRecord::InvalidForeignKey: PG::ForeignKeyViolation: ERROR:  insert or update on table "regions" violates foreign key constraint "fk_rails_f2ba72ccee"
+DETAIL:  Key (country_id)=(2) is not present in table "countries".
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql/database_statements.rb:49:in `exec'
+/usr/local/bundle/gems/activerecord-6.1.7Created database 'app_development'
+Created database 'app_test'
+users...
+users = 10
+countries = 1
+sub_categories = 30
+rake aborted!
+ActiveRecord::InvalidForeignKey: PG::ForeignKeyViolation: ERROR:  insert or update on table "regions" violates foreign key constraint "fk_rails_f2ba72ccee"
+DETAIL:  Key (country_id)=(2) is not present in table "countries".
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql/database_statements.rb:49:in `exec'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql/database_statements.rb:49:in `block (2 levels) in execute'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/dependencies/interlock.rb:48:in `block in permit_concurrent_loads'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/share_lock.rb:187:in `yield_shares'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/dependencies/interlock.rb:47:in `permit_concurrent_loads'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql/database_statements.rb:48:in `block in execute'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract_adapter.rb:696:in `block (2 levels) in log'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:26:in `block (2 levels) in synchronize'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `handle_interrupt'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `block in synchronize'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `handle_interrupt'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `synchronize'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract_adapter.rb:695:in `block in log'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract_adapter.rb:687:in `log'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql/database_statements.rb:47:in `execute'
+/app/db/seeds/development/users.rb:70:in `<main>'
+<internal:/usr/local/lib/ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:37:in `require'
+<internal:/usr/local/lib/ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:37:in `require'
+/usr/local/bundle/gems/bootsnap-1.16.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:32:in `require'
+/usr/local/bundle/gems/zeitwerk-2.6.7/lib/zeitwerk/kernel.rb:38:in `require'
+/app/db/seeds.rb:12:in `block in <main>'
+/app/db/seeds.rb:5:in `each'
+/app/db/seeds.rb:5:in `<main>'
+/usr/local/bundle/gems/railties-6.1.7.2/lib/rails/engine.rb:566:in `load'
+/usr/local/bundle/gems/railties-6.1.7.2/lib/rails/engine.rb:566:in `block in load_seed'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/callbacks.rb:117:in `block in run_callbacks'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/execution_wrapper.rb:91:in `wrap'
+/usr/local/bundle/gems/railties-6.1.7.2/lib/rails/engine.rb:640:in `block (2 levels) in <class:Engine>'
+/usr/local/bundle/gems/activesties/databases.rake:392:in `block (2 levels) in <main>'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:10:in `block in fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:10:in `block in fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:27:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_al/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:10:in `block in fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:10:in `block in fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:27:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:27:in `fork'
+<internal:/usr/local/lib/ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:88:in `require'
+<internal:/usr/local/lib/ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:88:in `require'
+-e:1:in `<main>'
+
+Caused by:
+PG::ForeignKeyViolation: ERROR:  insert or update on table "regions" violates foreign key constraint "fk_rails_f2ba72ccee"
+DETAIL:  Key (country_id)=(2) is not present in table "countries".
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql/database_statements.rb:49:in `exec'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql/database_statements.rb:49:in `block (2 levels) in execute'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/dependencies/interlock.rb:48:in `block in permit_concurrent_loads'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/share_lock.rb:187:in `yield_shares'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/dependencies/interlock.rb:47:in `permit_concurrent_loads'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql/database_statements.rb:48:in `block in execute'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract_adapter.rb:696:in `block (2 levels) in log'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:26:in `block (2 levels) in synchronize'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `handle_interrupt'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `block in synchronize'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `handle_interrupt'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `synchronize'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract_adapter.rb:695:in `block in log'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract_adapter.rb:687:in `log'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql/database_statements.rb:47:in `execute'
+/app/db/seeds/development/users.rb:70:in `<main>'
+<internal:/usr/local/lib/ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:37:in `require'
+<internal:/usr/local/lib/ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:37:in `require'
+/usr/local/bundle/gems/bootsnap-1.16.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:3t/execution_wrapper.rb:91:in `wrap'
+/usr/local/bundle/gems/railties-6.1.7.2/lib/rails/engine.rb:640:in `block (2 levels) in <class:Engine>'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/callbacks.rb:126:in `instance_exec'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/callbacks.rb:126:in `block in run_callbacks'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/callbacks.rb:137:in `run_callbacks'
+/usr/local/bundle/gems/railties-6.1.7.2/lib/rails/engine.rb:566:in `load_seed'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/tasies-6.1.7.2/lib/rails/engine.rb:640:in `block (2 levels) in <class:Engine>'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/callbacks.rb:126:in `instance_exec'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/callbacks.rb:126:in `block in run_callbacks'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/callbacks.rb:137:in `run_callbacks'
+/usr/local/bundle/gems/railties-6.1.7.2/lib/rails/engine.rb:566:in `load_seed'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/tasks/database_tasks.rb:450:in `load_seed'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/railties/databases.rake:392:in `block (2 levels) in <main>'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:10:in `block in fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:10:in `block in fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:27:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:27:in `docker-compose run --rm api rails db:reset[?2004l
+[1A[1B[0G[?25l[+] Running 1/0
+ [32m✔[0m Container myapp-db-1  [32mRunning[0m                                                                                                         [34m0.0s [0m
+[?25hRunning via Spring preloader in process 19
+Dropped database 'app_development'
+Dropped database 'app_test'
+Created database 'app_development'
+Created database 'app_test'
+users...
+users = 10
+countries = 1
+sub_categories = 30
+rake aborted!
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column trophies.image does not exist
+LINE 1: ...atitude" = $6 AND "trophies"."longitude" = $7 AND "trophies"...
+                                                             ^
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/Running via Spring preloader in process 19
+Dropped database 'app_development'
+Dropped database 'app_test'
+Created database 'app_development'
+Created database 'app_test'
+users...
+users = 10
+countries = 1
+sub_categories = 30
+rake aborted!
+ActiveRecord::StatementInvalid: PG::UndefinedColumn: ERROR:  column trophies.image does not exist
+LINE 1: ...atitude" = $6 AND "trophies"."longitude" = $7 AND "trophies"...
+                                                             ^
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql_adapter.rb:741:in `prepare'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql_adapter.rb:741:in `block in prepare_statement'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:26:in `block (2 levels) in synchronize'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `handle_interrupt'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `block in synchronize'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `handle_interrupt'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `synchronize'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql_adapter.rb:736:in `prepare_statement'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql_adapter.rb:682:in `exec_cache'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql_adapter.rb:651:in `execute_and_clear'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql/database_statements.rb:55:in `exec_query'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract/database_statements.rb:536:in `select_prepared'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract/database_statements.rb:67:in `select_all'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract/query_cache.rb:101:in `block in select_all'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract/query_cache.rb:118:in `block in cache_sql'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:26:in `block (2 levels) in synchronize'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `handle_interrupt'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `block in synchronize'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `handle_interrupt'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `synchronize'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract/query_cache.rb:10828:in `exec_queries'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/relation.rb:631:in `load'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/relation.rb:249:in `records'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/relation/finder_methods.rb:524:in `find_take'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/relation/finder_methods.rb:98:in `take'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/relation/finder_methods.rb:81:in `find_by'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/relation.rb:226:in `find_or_initialize_by'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/querying.rb:22:in `find_or_initialize_by'
+/app/db/seeds/development/users.rb:140:in `block in <main>'
+/app/dbelation/finder_methods.rb:524:in `find_take'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/relation/finder_methods.rb:98:in `take'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/relation/finder_methods.rb:81:in `find_by'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/relation.rb:226:in `find_or_initialize_by'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/querying.rb:22:in `find_or_initialize_by'
+/app/db/seeds/development/users.rb:140:in `block in <main>'
+/app/db/seeds/development/users.rb:127:in `times'
+/app/db/seeds/development/users.rb:127:in `<main>'
+<internal:/usr/local/lib/ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:37:in `require'
+<internal:/usr/local/lib/ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:37:in `require'
+/usr/local/bundle/gems/bootsnap-1.16.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:32:in `require'
+/usr/local/bundle/gems/zeitwerk-2.6.7/lib/zeitwerk/kernel.rb:38:in `require'
+/app/db/seeds.rb:12:in `block in <main>'
+/app/db/seeds.rb:5:in `each'
+/app/db/seeds.rb:5:in `<main>'
+/usr/local/bundle/gems/railties-6.1.7.2/lib/rails/engine.rb:566:in `load'
+/usr/local/bundle/gems/railties-6.1.7.2/lib/rails/engine.rb:566:in `block in load_seed'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/callbacks.rb:117:in `block in run_callbacks'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/execution_wrapper.rb:91:in `wrap'
+/usr/local/bundle/gems/railties-6.1.7.2/lib/rails/engine.rb:640:in `block (2 levels) in <class:Engine>'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/callbacks.rb:126:in `instance_exec'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/callbacks.rb:126:in `block in run_callbacks'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/callbacks.rb:137:in `run_callbacks'
+/usr/local/bundle/gems/railties-6.1.7.2/lib/rails/engine.rb:566:in `load_seed'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/tasks/database_tasks.rb:450:in `load_seed'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/railties/databases.rake:392:in `block (2 levels) in <main>'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:10:in `block in fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:10:in `block in fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:27:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:27:in `fork'
+<internal:/usr/local/lib/ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:88:in `require'
+<internal:/usr/local/lib/ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:88:in `require'
+-e:1:in `<main>'
+
+Caused by:
+PG::UndefinedColumn: ERROR:  column trophies.image does not exist
+LINE 1: ...atitude" = $6 AND "trophies"."longitude" = $7 AND "trophies"...
+                                                             ^
+interrupt'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `block in synchronize'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `handle_interrupt'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `synchronize'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql_adapter.rb:736:in `prepare_statement'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql_adapter.rb:682:in `exec_cache'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql_adapter.rb:651:in `execute_and_clear'ndle_interrupt'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `synchronize'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql_adapter.rb:736:in `prepare_statement'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql_adapter.rb:682:in `exec_cache'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql_adapter.rb:651:in `execute_and_clear'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql/database_statements.rb:55:in `exec_query'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract/database_statements.rb:536:in `select_prepared'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract/database_statements.rb:67:in `select_all'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract/query_cache.rb:101:in `block in select_all'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract/query_cache.rb:118:in `block in cache_sql'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:26:in `block (2 levels) in synchronize'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `handle_interrupt'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `block in synchronize'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `handle_interrupt'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `synchronize'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract/query_cache.rb:109:in `cache_sql'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract/query_cache.rb:101:in `select_all'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/querying.rb:47:in `find_by_sql'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/relation.rb:843:in `block in exec_queries'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/relation.rb:861:in `skip_query_cache_if_necessary'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/relation.rb:828:in `exec_queries'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/relation.rb:631:in `load'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/relation.rb:249:in `records'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/relation/finder_methods.rb:524:in `find_take'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/relation/finder_methods.rb:98:in `take'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/relation/finder_methods.rb:81:in `find_by'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/relation.rb:226:in `find_or_initialize_by'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/querying.rb:22:in `find_or_initialize_by'
+/app/db/seeds/develoin `block in <main>'
+/app/db/seeds.rb:5:in `each'
+/app/db/seeds.rb:5:in `<main>'
+/usr/local/bundle/gems/railties-6.1.7.2/lib/rails/engine.rb:566:in `load'
+/usr/local/bundle/gems/railties-6.1.7.2/lib/rails/engine.rb:566:in `block in load_seed'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/callbacks.rb:117:in `block in run_callbacks'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/execution_wrapper.rb:91:in `wrap'
+/usr/local/bundle/gems/railties-6.1.7.2/lib/rails/engine.rb:640:in `block (2 levels) in <class:Engine>'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/callbacks.rb:126:in `instance_exec'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/callbacks.rb:126:in `block in run_callbacks'
+/usr/local/bundle/gems/activems/activesupport-6.1.7.2/lib/active_support/callbacks.rb:117:in `block in run_callbacks'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/execution_wrapper.rb:91:in `wrap'
+/usr/local/bundle/gems/railties-6.1.7.2/lib/rails/engine.rb:640:in `block (2 levels) in <class:Engine>'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/callbacks.rb:126:in `instance_exec'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/callbacks.rb:126:in `block in run_callbacks'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/callbacks.rb:137:in `run_callbacks'
+/usr/local/bundle/gems/railties-6.1.7.2/lib/rails/engine.rb:566:in `load_seed'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/tasks/database_tasks.rb:450:in `load_seed'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/railties/databases.rake:392:in `block (2 levels) in <main>'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:10:in `block in fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:10:in `block in fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:27:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:27:in `docker-compose run --rm api rails db:reset[?2004l
+[1A[1B[0G[?25l[+] Running 1/0
+ [32m✔[0m Container myapp-db-1  [32mRunning[0m                                                                                                         [34m0.0s [0m
+[?25hRunning via Spring preloader in process 19
+Dropped database 'app_development'
+Dropped database 'app_test'
+Created database 'app_development'
+Created database 'app_test'
+users...
+users = 10
+countries = 1
+sub_categories = 30
+trophies = 30
+[1m[7m%[27m[1m[0m                                                                                                                                              [0m[27m[24m[Jyuya@agatsumayuunarinoMacBook-Pro api % [K[?2004hdocker-compose run --rm api rails db:reset[?2004l
+[1A[1B[0G[?25l[+] Running 1/0
+ [32m✔[0m Container myapp-db-1  [32mRunning[0m                                                                                                         [34m0.0s [0m
+[?25hRunning via Spring preloader in process 19
+PG::ObjectInUse: ERROR:  database "app_development" is being accessed by other users
+DETAIL:  There are 2 other sessions using the database.
+Couldn't drop database 'app_development'
+rake aborted!
+ActiveRecord::Statementdocker-compose run --rm api rails db:reset[?2004l
+[1A[1B[0G[?25l[+] Running 1/0
+ [32m✔[0m Container myapp-db-1  [32mRunning[0m                                                                                                         [34m0.0s [0m
+[?25hRunning via Spring preloader in process 19
+PG::ObjectInUse: ERROR:  database "app_development" is being accessed by other users
+DETAIL:  There are 2 other sessions using the database.
+Couldn't drop database 'app_development'
+rake aborted!
+ActiveRecord::StatementInvalid: PG::ObjectInUse: ERROR:  database "app_development" is being accessed by other users
+DETAIL:  There are 2 other sessions using the database.
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql/database_statements.rb:49:in `exec'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql/database_statements.rb:49:in `block (2 levels) in execute'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/dependencies/interlock.rb:48:in `block in permit_concurrent_loads'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/share_lock.rb:187:in `yield_shares'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/dependencies/interlock.rb:47:in `permit_concurrent_loads'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql/database_statements.rb:48:in `block in execute'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract_adapter.rb:696:in `block (2 levels) in log'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:26:in `block (2 levels) in synchronize'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `handle_interrupt'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `block in synchronize'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `handle_interrupt'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `synchronize'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract_adapter.rb:695:in `block in log'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract_adapter.rb:687:in `log'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql/database_statements.rb:47:in `execute'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql/schema_statements.rb:54:in `drop_database'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/tasks/postgresql_database_tasks.rb:32:in `drop'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/tasks/database_tasks.rb:199:in `drop'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/tasks/database_tasks.rb:214:in `block in drop_current'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/tasks/database_tasks.rb:506:in `block (2 levels) in each_current_configuration'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/tasks/database_tasks.rb:503:in `each'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/tabundle/gems/activerecord-6.1.7.2/lib/active_record/railties/databases.rake:64:in `block (2 levels) in <main>'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:10:in `block in fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:10:in `block in fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in `fork'
+/usr/local/bundle/gems/activesubundle/gems/activerecord-6.1.7.2/lib/active_record/railties/databases.rake:64:in `block (2 levels) in <main>'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:10:in `block in fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:10:in `block in fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:27:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:27:in `fork'
+<internal:/usr/local/lib/ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:88:in `require'
+<internal:/usr/local/lib/ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:88:in `require'
+-e:1:in `<main>'
+
+Caused by:
+PG::ObjectInUse: ERROR:  database "app_development" is being accessed by other users
+DETAIL:  There are 2 other sessions using the database.
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql/database_statements.rb:49:in `exec'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql/database_statements.rb:49:in `block (2 levels) in execute'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/dependencies/interlock.rb:48:in `block in permit_concurrent_loads'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/share_lock.rb:187:in `yield_shares'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/dependencies/interlock.rb:47:in `permit_concurrent_loads'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql/database_statements.rb:48:in `block in execute'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract_adapter.rb:696:in `block (2 levels) in log'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:26:in `block (2 levels) in synchronize'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `handle_interrupt'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `block in synchronize'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `handle_interrupt'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `synchronize'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract_adapter.rb:695:in `block in log'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract_adapter.rb:687:in `log'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql/database_statements.rb:47:in `execute'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql/schema_statements.rb:54:in `drop_database'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/tasks/postgresql_database_tasks.rb:32:in `drop'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/tasks/databandle/gems/activerecord-6.1.7.2/lib/active_record/tasks/database_tasks.rb:502:in `each'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/tasks/database_tasks.rb:502:in `each_current_configuration'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/tasks/database_tasks.rb:214:in `drop_current'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/railties/databases.rake:68:in `block (2 levels) in <main>'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/railties/databases.rake:64:in ndle/gems/activerecord-6.1.7.2/lib/active_record/tasks/database_tasks.rb:502:in `each'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/tasks/database_tasks.rb:502:in `each_current_configuration'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/tasks/database_tasks.rb:214:in `drop_current'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/railties/databases.rake:68:in `block (2 levels) in <main>'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/railties/databases.rake:64:in `block (2 levels) in <main>'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:10:in `block in fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:10:in `block in fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:27:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_trdocker-compose run --rm api rails db:reset[?2004l
+[1A[1B[0G[?25l[+] Running 1/0
+ [32m✔[0m Container myapp-db-1  [32mCreated[0m                                                                                                         [34m0.0s [0m
+[?25h[1A[1B[0G[?25l[+] Running 0/0
+ ⠋ Container myapp-db-1  Starting                                                                                                        [34m0.1s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ ⠙ Container myapp-db-1  Starting                                           [?2004l
+[1A[1B[0G[?25l[+] Running 1/0
+ [32m✔[0m Container myapp-db-1  [32mCreated[0m                                                                                                         [34m0.0s [0m
+[?25h[1A[1B[0G[?25l[+] Running 0/0
+ ⠋ Container myapp-db-1  Starting                                                                                                        [34m0.1s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ ⠙ Container myapp-db-1  Starting                                                                                                        [34m0.2s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ ⠹ Container myapp-db-1  Starting                                                                                                        [34m0.3s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ ⠸ Container myapp-db-1  Starting                                                                                                        [34m0.4s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ ⠼ Container myapp-db-1  Starting                                                                                                        [34m0.5s [0m
+[?25h[1A[1A[0G[?25l[+] Running Created database 'app_test'
+users...
+users = 10
+countries = 1
+sub_categories = 30
+trophies = 30
+[1m[7m%[27m[1m[0m                                                                                                                                              [0m[27m[24m[Jyuya@agatsumayuunarinoMacBook-Pro api % [K[?2004hdocker-compose run --rm api rails db:resetseed generate controller api/v1/Prefectures[11DCountries  [9DRegions  Countries[9DPrefectures[11DCountries  [9DRegions  [68Dhistory                                                             [61Ddocker-compose run --rm api rails dbconsole;2D;2C      [43Dhistory                                    [36Ddocker-compose run --rm api rails generate controller api/v1/RegionsCountries[9DPrefectures[38Ddb:seed                               [31Dreset[42D                                          [42Ddocker-compose run --rm api rails db:reset[?2004l
+[1A[1B[0G[?25l[+] Running 1/0
+ [32m✔[0m Container myapp-db-1  [32mRunning[0m                                                                                                         [34m0.0s [0m
+[?25hRunning via Spring preloader in process 19
+rake aborted!
+ActiveRecord::ConnectionNotEstablished: connection to server at "172.23.0.2", port 5432 failed: FATAL:  the database system is shutting down
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql_adapter.rb:83:i[?2004l
+[1A[1B[0G[?25l[+] Running 1/0
+ [32m✔[0m Container myapp-db-1  [32mRunning[0m                                                                                                         [34m0.0s [0m
+[?25hRunning via Spring preloader in process 19
+rake aborted!
+ActiveRecord::ConnectionNotEstablished: connection to server at "172.23.0.2", port 5432 failed: FATAL:  the database system is shutting down
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql_adapter.rb:83:in `rescue in new_client'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql_adapter.rb:77:in `new_client'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `postgresql_connection'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:882:in `public_send'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:882:in `new_connection'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:926:in `checkout_new_connection'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:905:in `try_to_checkout_new_connection'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:866:in `acquire_connection'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:588:in `checkout'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:428:in `connection'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:1128:in `retrieve_connection'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_handling.rb:327:in `retrieve_connection'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_handling.rb:283:in `connection'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/tasks/database_tasks.rb:59:in `check_protected_environments!'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/railties/databases.rake:18:in `block (2 levels) in <main>'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:10:in `block in fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:10:in `block in fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:27:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:27:in `fork'
+<internal:/usr/local/lib/ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:88:in `require'
+<internal:/usr/local/lib/ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:88:in `require'
+-e:1:in `<main>'
+
+Caused by:
+PG::ConnectionBad: connection to server at "172.23.0.2", port 5432 failed: FATAL:  the database system is shutting down
+/usr/local/bundle/gems/pg-1.4.5/lib/pg/connection.rb:632:in `async_connececord/connection_adapters/abstract/connection_pool.rb:882:in `public_send'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:882:in `new_connection'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:926:in `checkout_new_connection'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:905:in `try_to_checkout_new_connection'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:866:in `acqugems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:882:in `new_connection'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:926:in `checkout_new_connection'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:905:in `try_to_checkout_new_connection'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:866:in `acquire_connection'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:588:in `checkout'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:428:in `connection'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:1128:in `retrieve_connection'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_handling.rb:327:in `retrieve_connection'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_handling.rb:283:in `connection'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/tasks/database_tasks.rb:59:in `check_protected_environments!'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/railties/databases.rake:18:in `block (2 levels) in <main>'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:10:in `block in fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:10:in `block in fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:27:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:27:in `fork'
+<internal:/usr/local/lib/ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:88:in `require'
+<internal:/usr/local/lib/ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:88:in `require'
+-e:1:in `<main>'
+Tasks: TOP => db:reset => db:drop => db:check_protected_environments
+(See full trace by running task with --trace)
+[1m[7m%[27m[1m[0m                                                                                                                                              [0m[27m[24m[Jyuya@agatsumayuunarinoMacBook-Pro api % [K[?2004hdocker-compose run --rm api rails db:reset[?2004l
+[1A[1B[0G[?25l[+] Running 1/0
+ [32m✔[0m Container myapp-db-1  [32mCreated[0m                                                                                                         [34m0.0s [0m
+[?25h[1A[1B[0G[?25l[+] Running 0/0
+ ⠋ Container myapp-db-1  Starting                                                                                                        [34m0.1s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ ⠙ Container myapp-db-1  Starting                                                                                                        [34m0.2s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ ⠹ Container myapp-db-1  Starting                                                                                                                                                                                         [34m0.5s [0m
+[?25hRunning via Spring preloader in process 18
+rake aborted!
+ActiveRecord::ConnectionNotEstablished: connection to server at "172.23.0.2", port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql_adapter.rb:83:in `rescue in new_client'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql_adapter.rb:77:in `new_client'
+/usr/local/bu0.5s [0m
+[?25hRunning via Spring preloader in process 18
+rake aborted!
+ActiveRecord::ConnectionNotEstablished: connection to server at "172.23.0.2", port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql_adapter.rb:83:in `rescue in new_client'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql_adapter.rb:77:in `new_client'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `postgresql_connection'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:882:in `public_send'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:882:in `new_connection'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:926:in `checkout_new_connection'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:905:in `try_to_checkout_new_connection'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:866:in `acquire_connection'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:588:in `checkout'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:428:in `connection'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:1128:in `retrieve_connection'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_handling.rb:327:in `retrieve_connection'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_handling.rb:283:in `connection'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/tasks/database_tasks.rb:59:in `check_protected_environments!'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/railties/databases.rake:18:in `block (2 levels) in <main>'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:10:in `block in fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:10:in `block in fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:27:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:27:in `fork'
+<internal:/usr/local/lib/ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:88:in `require'
+<internal:/usr/local/lib/ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:88:in `require'
+-e:1:in `<main>'
+
+Caused by:
+PG::ConnectionBad: connection to server at "172.23.0.2", port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+/usr/local/bundle/gems/pg-1.4.5/lib/pg/connection.rb:632:in `async_connect_or_reset'
+/usr/local/bundle/gems/pg-1.4.5/lib/pg/connection.rb:760:in `connect_to_hosts'
+/usr/local/bundle/gems/pg-1.4.5/lib/pg/connection.rb:695:in `new'
+/usr/local/bundle/gems/pg-1.4.5/lib/pg.rb:69:in `connect'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/activeconnection_adapters/abstract/connection_pool.rb:926:in `checkout_new_connection'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:905:in `try_to_checkout_new_connection'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:866:in `acquire_connection'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:588:in `checkout'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:428:in `connection'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:1128:in `retrieve_connection'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_handling.rb:327:in `retrieve_connection'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/connection_handling.rb:283:in `connection'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/tasks/database_tasks.rb:59:in `check_protected_environments!'
+/usr/local/bundle/gems/activerecord-6.1.7.2/lib/active_record/railties/databases.rake:18:in `block (2 levels) in <main>'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:10:in `block in fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:10:in `block in fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:27:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:8:in `fork'
+/usr/local/bundle/gems/activesupport-6.1.7.2/lib/active_support/fork_tracker.rb:27:in `fork'
+<internal:/usr/local/lib/ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:88:in `require'
+<internal:/usr/local/lib/ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:88:in `require'
+-e:1:in `<main>'
+Tasks: TOP => db:reset => db:drop => db:check_protected_environments
+(See full trace by running task with --trace)
+[1m[7m%[27m[1m[0m                                                                                                                                              [0m[27m[24m[Jyuya@agatsumayuunarinoMacBook-Pro api % [K[?2004hdocker-compose run --rm api rails db:reset[?2004l
+[1A[1B[0G[?25l[+] Running 1/0
+ [32m✔[0m Container myapp-db-1  [32mRunning[0m                                                                                                         [34m0.0s [0m
+[?25hRunning via Spring preloader in process 19
+Dropped database 'app_development'
+Dropped database 'app_test'
+Created database 'app_development'
+Created database 'app_test'
+users...
+users = 10
+countries = 1
+sub_categories = 30
+trophies = 30
+[1m[7m%[27m[1m[0m                                                                                                                                              [0m[27m[24m[Jyuya@agatsumayuunarinoMacBook-Pro api % [K[?2004hdocker-compose run --rm api rails db:resetseed generate controller api/v1/Prefectures[11DCountries  [9DPrefectures[11DCountries  [9DRegions  [68Dhistory                                                             [61Ddocker-compose run --rm api rails dbconsole[9Dg model friendship[18Ddestroy model Friendships[25Dg[6P[18C      [19Ddestroy model Friendships[25Dg[6P[18C                 Achivementsevements[1C[1C[1C[1C[1C[1C[1C[?2004l
+[1A[1B[0G[?25l[+] Running 1/0
+ [32m✔[0m Container myapp-db-1  [32mRunning[0m                                                                                                         [34m0.0s [0m
+[?25hRunning via Spring preloader in process 19
+[WARNING] The model name 'Achievements' was recognized as a plural, using the singular 'Achievement' instead. Override with --force-plural or setup custom inflection rules for this noun before running the generator.
+[1m[37m      invoke[0m  active_record
+[1m[32m      create[0m    db/migrate/20230920144211_create_achievements.rb
+[1m[32m      create[0m    app/models/achievement.rb
+[1m[37m      invoke[0m    test_unit
+[1m[32m      create[0m      test/models/achievement_tRunning via Spring preloader in process 19
+[WARNING] The model name 'Achievements' was recognized as a plural, using the singular 'Achievement' instead. Override with --force-plural or setup custom inflection rules for this noun before running the generator.
+[1m[37m      invoke[0m  active_record
+[1docker-compose run --rm api rails g model Achievements[20Ddb:reset            [12Dseed generate controller api/v1/Prefectures[11DCountries  [9DPrefectures[38Ddb:seed                               [31Dresetseed generate controller api/v1/Prefectures[11DCountries  [9DRegions  [68Dhistory                                                             [61Ddocker-compose run --rm api rails dbconsole[43Dhistory                                    [36Ddocker-compose run --rm api rails generate controller api/v1/Regions[68Dhistory                                                             [61Ddocker-compose run --rm api rails dbconsole[9Dg model friendship[18Ddestroy model Friendships[25Dg[6P[18C      [19Ddbconsole          [10D[9Dg model Friendships[19Ddbconsole          [10D[24D[5P[10Cgenerate controller Api::V1::Auth[41Dp[40C[46D[8P[38C        [8D[54D[15P[39C               
+[K[K[A[40Cdocker-compos[2Cdown api                [1B[K[A[63C[8Drestart api--rm api[15Dun[4P[9C rails db:migrate[?2004l[1B[1A[1B[0G[?25l[+] Running 1/0
+ [32m✔[0m Container myapp-db-1  [32mRunning[0m                                                                                                         [34m0.0s [0m
+[?25hRunning via Spring preloader in process 19
+== 20230920144211 CreateAchievements: migrating ===============================
+-- create_table(:achievements)
+   -> 0.1998s
+== 20230920144211 CreateAchievements: migrated (0.2000s) ======================
+
+[1m[7m%[27m[1m[0m                              [?2004l[1B[1A[1B[0G[?25l[+] Running 1/0
+ [32m✔[0m Container myapp-db-1  [32mRunning[0m                                                                                   docker-compose run --rm api rails db:migrate[10Dg model Achievements[20Ddb:reset            [12Dseed generate controller api/v1/Prefectures[11DCountries  [9DPrefectures           Achievements[?2004l
+[1A[1B[0G[?25l[+] Running 1/0
+ [32m✔[0m Container myapp-db-1  [32mRunning[0m                                                                                                         [34m0.0s [0m
+[?25hRunning via Spring preloader in process 19
+[1m[32m      create[0m  app/controllers/api/v1/achievements_controller.rb
+[1m[37m      invoke[0m  test_unit
+[1m[32m      create[0m    test/controllers/api/v1/achievements_controller_test.rb
+[1m[7m%[27m[1m[0m                                         [?2004l
+[1A[1B[0G[?25l[+] Running 1/0
+ [32m✔[0m Container myapp-db-1  [32mRunning[0m                                                                          docker-compose run --rm api rails generate controller api/v1/Achievements[39Ddb:migrate                             [29D[10Dg model Achievements[20Ddb:reset            [12Dseed generate controller api/v1/Prefectures[11DCountries  [9DRegions  [68Dhistory                                                             [61Ddocker-compose run --rm api rails dbconsole[9Dg model friendship[18Ddestroy model Friendships[25Dg[6P[18C      [19Ddbconsole          [10D[24D[5P[10Cgenerate controlledocker-compose run --rm api rails generate controller api/v1/Achievements[39Ddb:migrate                             [29D[10Dg model Achievements[20Ddb:reset            [12Dseed generate controller api/v1/Prefectures[11DCountries  [9DRegions  [68Dhistory                                                             [61Ddocker-compose run --rm api rails dbconsole[9Dg model friendship[18Ddestroy model Friendships[25Dg[6P[18C      [19Ddbconsole          [10D[24D[5P[10Cgenerate controller Api::V1::Auth[41Dp[40C[46D[8P[38C        [8D[54D[15P[39C               
+[K[K[A[40Cdocker-compos[2Cdown api                [1B[K[A[63C[8Drestart api--rm api[15Dun[4P[9C rails db:migrate[10Dgenerate migration ChangeForeignKeyInTrophies[45Ddb:migrate                                   [35D[10Dg model trophies[16Ddestroy model trophies[21Db:migrate            [12D[10Dg model trophies[16Ddestroy model trophies[21Db:migrate            [12D[10Dgenerate migration ChangeForeignKeyInSubCategories[41Dcontroller api/v1/Sub_c[9P[9C         [9D[41Ddb:migrate                               [31D[10Dgenerate model sub_categories[20Dcontroller api/v1/Trophies[8DCategories[37Ddb:migrate                           [27D[10Dgenerate model trophies[23Ddb:migrate             [13D[10Dgenerate model categories[25Ddestroy model trophy     [20Dgenerate model trophy[55Dcd ../api                                              [46D[9Dgit commit -m "Add friendships"[27Dadd -A                     [21D[10Dcd ../front[11Dgit commit -m "Add friendships"[31Dcd ../front                    [20D[11Dgit add -A [10Dcd ../front[11Dgit commit -m "Add friendships"[27Dadd -A                     [21D

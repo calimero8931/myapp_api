@@ -23,14 +23,28 @@ Rails.application.routes.draw do
       # category取得
       get '/categories_request/', to: 'categories#index'
 
-      # trophies取得
+      # sub_categories取得
       get '/sub_categories_request/', to: 'sub_categories#index'
 
+      # countries取得
+
+      # regions取得
+      get '/regions_request/', to: 'regions#show'
+
+      # prefectures取得
+      get '/prefectures_request/', to: 'prefectures#show'
+
       # trophies取得
-      get '/trophies_request/', to: 'trophies#index'
+      get '/results/', to: 'trophies#list'
 
       # trophy個別取得
-      get 'trophy/:id', to: 'trophies#show'
+      get 'trophy/', to: 'trophies#show'
+
+      # favorite取得
+      get '/get_favorite/', to: 'achievements#get_favorite'
+
+      # favorite登録
+      get '/favorite_request/', to: 'achievements#set_favorite'
 
     end
   end
