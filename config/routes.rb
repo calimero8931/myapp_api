@@ -46,6 +46,12 @@ Rails.application.routes.draw do
       # favorite登録
       get '/favorite_request/', to: 'achievements#set_favorite'
 
+      # achievement取得
+      get '/get_achievements_list/', to: 'achievements#get_achievements'
+
+      # achieve_trophy
+      get '/achieve_trophy/', to: 'achievements#achieve_trophy'
+
     end
   end
 end
