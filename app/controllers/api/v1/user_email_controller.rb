@@ -4,9 +4,15 @@ class Api::V1::UserEmailController < ApplicationController
     user_id = params[:params][:user_id]
     new_email = params[:params][:new_email]
     user = User.find_by(id: user_id)
+    another_user = User.find_by(email: new_email)
 
     if user.nil?
       render json: { error: 'ユーザーが見つかりません' }, status: :not_found
+      return
+    end
+
+    if another_user.present?
+      render json: { error: '既に登録されているメールアドレスです' ,message: '既に登録されているメールアドレスです' }, status: :unprocessable_entity
       return
     end
 
@@ -51,7 +57,7 @@ class Api::V1::UserEmailController < ApplicationController
   end
 
     if user.confirmation_token == token
-      user.update(email: user.unconfirmed_email, unconfirmed_email: nil, confirmation_token: nil)
+      user.update(email: user.unconfirmed_email, unconfirmed_email: nil, confirmation_token: nil, confirmation_token_expires_at: nil)
       render json: { message: 'メールアドレスが更新されました' }
     else
       user.update(unconfirmed_email: nil, confirmation_token: nil, confirmation_token_expires_at: nil)

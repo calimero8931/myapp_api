@@ -1754,3 +1754,45 @@ trophies = 30
  create mode 100644 components/LoggedIn/LoggedInAppBarMypageButton.vue
 [1m[7m%[27m[1m[0m                                                                                                                                              [0m[27m[24m[Jyuya@agatsumayuunarinoMacBook-Pro front % [K[?2004hgit commit -m "Update header"[25Dadd -A                   [19D[10Dcd ../front[11Dgit commit -m "Update header"[25Dadd -A                   [19D[10Dcd ../api [?2004l
 [1m[7m%[27m[1m[0m                                                                                                                                              [0m[27m[24m[Jyuya@agatsumayuunarinoMacBook-Pro api % [K[?2004hcd ../api[9Dgit commit -m "Update header"[29Dcd ../api                    [20D[9D         [9Dcd ../api[9Dgit commit -m "Update header"[25Dadd -A                   [19D[10Dcd ../front[11Dgit add -A commit -m "Update header"[29Dcd ../api                    [20D[9D         [9Dcd ../api[9Dgit commit -m "Update header"[29Dcd ../api                    [20D[9D         [9Dcd ../api[9Dgit commit -m "Update header"[25Dadd -A                   [19D[10Dcd ../front[11Dgit add -A commit -m "Update header"[29Dcd ../api                    [20D[9D         [9Dcd ../api[9Dgit commit -m "Update header"[25Dadd -A                   [19D[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                              [0m[27m[24m[Jyuya@agatsumayuunarinoMacBook-Pro api % [K[?2004hgit add -A[10Dcd ../api [9Dgit commit -m "Update header"" " " " " " " " " " " " " S"d"" " A"d"d" "M"i"l"" " a"i"l"e"r"[?2004l
+[master 0b8da9a] Add Mailer
+ 32 files changed, 487 insertions(+), 11 deletions(-)
+ create mode 100644 app/controllers/api/v1/interests_controller.rb
+ create mode 100644 app/controllers/api/v1/public_profiles_controller.rb
+ create mode 100644 app/controllers/api/v1/user_email_controller.rb
+ create mode 100644 app/mailers/user_mailer.rb
+ create mode 100644 app/models/interest.rb
+ create mode 100644 app/models/public_profile.rb
+ create mode 100644 app/views/user_mailer/email_change_confirmation.text.erb
+ create mode 100644 db/migrate/20230922151735_create_public_profiles.rb
+ create mode 100644 db/migrate/20230923115056_create_interests.rb
+ create mode 100644 db/migrate/20230927120650_add_column_to_users.rb
+ create mode 100644 db/migrate/20230928152731_add_column_to_users2.rb
+ create mode 100644 db/migrate/20230929062641_add_column_to_users3.rb
+ create mode 100644 test/controllers/api/v1/interests_controller_test.rb
+ create mode 100644 test/controllers/api/v1/public_profiles_controller_test.rb
+ create mode 100644 test/controllers/api/v1/user_email_controller_test.rb
+ create mode 100644 test/fixtures/interests.yml
+ create mode 100644 test/fixtures/public_profiles.yml
+ create mode 100644 test/mailers/previews/user_mailer_preview.rb
+ create mode 100644 test/mailers/user_mailer_test.rb
+ create mode 100644 test/models/interest_test.rb
+ create mode 100644 test/models/public_profile_test.rb
+[1m[7m%[27m[1m[0m                                                                                                                                              [0m[27m[24m[Jyuya@agatsumayuunarinoMacBook-Pro api % [K[?2004hgit commit -m "Add Mailer"[22Dadd -A                [16D[10Dcd ../api [9Dgit commit -m "Update header"[25Dadd -A                   [19D[10Dcd ../front[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                              [0m[27m[24m[Jyuya@agatsumayuunarinoMacBook-Pro front % [K[?2004hcd ../front[11Dgit commit -m "Add Mailer"[22Dadd -A                [16D[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                              [0m[27m[24m[Jyuya@agatsumayuunarinoMacBook-Pro front % [K[?2004hgit add -A[10Dcd ../front[11Dgit commit -m "Add Mailer"[?2004l
+[main 6e4cd4e] Add Mailer
+ 19 files changed, 537 insertions(+), 53 deletions(-)
+ create mode 100644 components/User/UserEmailChangeForm.vue
+ create mode 100644 components/User/UserPasswordChangeForm.vue
+ rename pages/{project/_id/help.vue => account/_id/delete.vue} (100%)
+ create mode 100644 pages/account/_id/interest.vue
+ create mode 100644 pages/account/_id/mail-address.vue
+ rename pages/{ => account/_id}/mypage.vue (95%)
+ create mode 100644 pages/account/_id/password.vue
+ create mode 100644 pages/account/_id/public-profile.vue
+ delete mode 100644 pages/project/_id/layouts.vue
+ delete mode 100644 pages/project/_id/pages.vue
+ delete mode 100644 pages/project/_id/settings.vue
+[1m[7m%[27m[1m[0m                                                                                                                                              [0m[27m[24m[Jyuya@agatsumayuunarinoMacBook-Pro front % [K[?2004hgit commit -m "Add Mailer"[22Dadd -A                [16D[10Dcd ../front[11Dgit commit -m "Add Mailer"[22Dadd -A                [16D[10Dcd ../api [?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                              [0m[27m[24m[Jyuya@agatsumayuunarinoMacBook-Pro api % [K[?2004hcd ../api[9Dgit commit -m "Add Mailer"[22Dadd -A                [16Dcommit -m "Add Mailer"[26Dcd ../api                 [17D[9D         [9Dcd ../api[9Dgit commit -m "Add Mailer"[22Dadd -A                [16D[?2004l

@@ -25,6 +25,9 @@ Rails.application.routes.draw do
       # メールアドレス変更確認2
       get '/confirm_email2/', to: 'user_email#confirm_email_change_step2'
 
+      # パスワード変更
+      post '/change_password/', to: 'user_password#request_change'
+
       # friend申請
       post '/friend_request/', to: 'friendships#friend_request'
       # post '/friend_request/', to: proc { [200, {}, ['とりあえず返します']] }
