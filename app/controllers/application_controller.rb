@@ -9,12 +9,30 @@ class ApplicationController < ActionController::API
 
   private
 
-    # XMLHttpRequestでない場合は403エラーを返す
-    def xhr_request?
-      # リクエストヘッダ X-Requested-With: 'XMLHttpRequest' の存在を判定
-      return if request.xhr?
-      render status: :forbidden, json: { status: 403, error: "Forbidden" }
+  def xhr_request?
+    # リクエストヘッダ X-Requested-With: 'XMLHttpRequest' の存在を判定
+    return if request.xhr?
+
+    # 特定のURLパラメーターが存在する場合、403を返さない
+    if specific_parameters_present?
+      return
     end
+
+    render status: :forbidden, json: { status: 403, error: "Forbidden", message: "XMLHttpRequestではありません" }
+  end
+
+  private
+
+  def specific_parameters_present?
+    # メルアド変更メールのクリックで飛んできた人だけ許可
+    params[:key] == 'dsyd'
+
+  end
+
+    # def xhr_request?
+    #   return if request.xhr?
+    #   render status: :forbidden, json: { status: 403, error: "Forbidden",message: "XMLHttpRequestではありません" }
+    # end
 
     # Internal Server Error
     def response_500(msg = "Internal Server Error")

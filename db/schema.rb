@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2023_09_20_144211) do
+ActiveRecord::Schema.define(version: 2023_09_29_062641) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -50,12 +50,33 @@ ActiveRecord::Schema.define(version: 2023_09_20_144211) do
     t.index ["user_id"], name: "index_friendships_on_user_id"
   end
 
+  create_table "interests", force: :cascade do |t|
+    t.bigint "user_id", null: false
+    t.bigint "sub_category_id", null: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["sub_category_id"], name: "index_interests_on_sub_category_id"
+    t.index ["user_id"], name: "index_interests_on_user_id"
+  end
+
   create_table "prefectures", force: :cascade do |t|
     t.string "name"
     t.bigint "region_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.index ["region_id"], name: "index_prefectures_on_region_id"
+  end
+
+  create_table "public_profiles", force: :cascade do |t|
+    t.bigint "user_id", null: false
+    t.string "username", null: false
+    t.string "profile__image_url"
+    t.text "bio"
+    t.string "website"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["user_id"], name: "index_public_profiles_on_user_id"
+    t.index ["username"], name: "index_public_profiles_on_username", unique: true
   end
 
   create_table "regions", force: :cascade do |t|
@@ -103,13 +124,19 @@ ActiveRecord::Schema.define(version: 2023_09_20_144211) do
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.string "refresh_jti"
+    t.string "unconfirmed_email"
+    t.string "confirmation_token"
+    t.datetime "confirmation_token_expires_at"
   end
 
   add_foreign_key "achievements", "trophies"
   add_foreign_key "achievements", "users"
   add_foreign_key "friendships", "users"
   add_foreign_key "friendships", "users", column: "friend_id"
+  add_foreign_key "interests", "sub_categories"
+  add_foreign_key "interests", "users"
   add_foreign_key "prefectures", "regions"
+  add_foreign_key "public_profiles", "users"
   add_foreign_key "regions", "countries"
   add_foreign_key "sub_categories", "categories"
   add_foreign_key "trophies", "countries"

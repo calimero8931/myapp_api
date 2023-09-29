@@ -60,6 +60,12 @@ class User < ApplicationRecord
     as_json(only: [:id, :name]).merge(payload).with_indifferent_access
   end
 
+  # 更新メールが5分以内にクリックされているか
+  def confirmation_token_expired?
+    self.confirmation_token_expires_at < Time.now
+  end
+
+
   private
 
   # email小文字化
@@ -67,4 +73,6 @@ class User < ApplicationRecord
     self.email.downcase! if email
   end
 
+
+  has_many :interests, dependent: :destroy
 end

@@ -5,4 +5,5 @@ class Api::V1::UsersController < ApplicationController
     user = User.find(user_id)
     render json: user.response_json, status: :ok
   end
+
 end
