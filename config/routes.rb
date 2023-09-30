@@ -28,6 +28,9 @@ Rails.application.routes.draw do
       # パスワード変更
       post '/change_password/', to: 'user_password#request_change'
 
+      # アカウント非アクティブ
+      post '/delete_account/', to: 'users#delete_account'
+
       # friend申請
       post '/friend_request/', to: 'friendships#friend_request'
       # post '/friend_request/', to: proc { [200, {}, ['とりあえず返します']] }
