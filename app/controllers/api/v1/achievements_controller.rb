@@ -32,7 +32,7 @@ class Api::V1::AchievementsController < ApplicationController
 
       if favorite.save
         already = true
-        message = "Achievement created successfully."
+        message = "お気に入りに追加しました"
         render json: { message: message , already: already } , status: :ok
       else
         render json: favorite.errors, status: :unprocessable_entity
@@ -40,7 +40,7 @@ class Api::V1::AchievementsController < ApplicationController
     else
       favorite.destroy
       already = false
-      message = "Achievement already exists. because destroy it."
+      message = "お気に入りから削除しました"
       render json: { message: message , already: already } , status: :ok
     end
   end
@@ -68,5 +68,32 @@ class Api::V1::AchievementsController < ApplicationController
       # レコードが見つからなかった場合、エラーメッセージを返すなどの処理を行う
       render json: { error: '該当するレコードが見つかりませんでした' }, status: :not_found
     end
+  end
+
+  def compute_achievement_rate
+    trophy_id = params[:trophy_id]
+
+    # Trophyを取得
+    trophy = Trophy.find_by(id: trophy_id)
+
+    # Trophyが存在しない場合のエラーハンドリング
+    if trophy.nil?
+      render json: { error: "指定されたトロフィーが見つかりません" }, status: :not_found
+      return
+    end
+
+    # 興味を持っている人数
+    interested_users_count = Interest.where(sub_category_id: trophy.category_id ).count
+
+    # トロフィーを取得した人数（achievementがtrueの場合）
+    earned_users_count = Achievement.where(trophy_id: trophy_id, achievement: true).count
+
+    # 取得率を計算
+    completion_rate = (earned_users_count.to_f / interested_users_count.to_f * 100).round(2)
+
+    render json: {
+      interested_users_count: interested_users_count,
+      earned_users_count: earned_users_count,
+      completion_rate: completion_rate } , status: :ok
   end
 end

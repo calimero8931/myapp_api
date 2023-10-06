@@ -59,11 +59,14 @@ Rails.application.routes.draw do
       # trophy個別取得
       get 'trophy/', to: 'trophies#show'
 
-      # favorite取得
+      # すでにfavoriteしてる？
       get '/get_favorite/', to: 'achievements#get_favorite'
 
       # favorite登録
       get '/favorite_request/', to: 'achievements#set_favorite'
+
+      # すでにinterestしてる？
+      get '/get_interested/', to: 'interests#get_interested_sub_categories'
 
       # achievement取得
       get '/get_achievements_list/', to: 'achievements#get_achievements'
@@ -73,6 +76,18 @@ Rails.application.routes.draw do
 
       # public_profileのセット
       post '/set_public_profile/', to: 'public_profiles#create'
+
+      # public_profileページget_hash
+      get '/account/get_hash/:id', to: 'public_profiles#get_hash'
+
+      # public_profileページ
+      get '/account/public-profile/:hash', to: 'public_profiles#page_show', as: 'public_profile'
+
+      # public_profileページ
+      get '/share/:hash', to: 'public_profiles#page_show'
+
+      # トロフィー取得率計算
+      get '/compute_achievement_rate/', to: 'achievements#compute_achievement_rate'
 
     end
   end

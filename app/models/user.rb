@@ -65,6 +65,9 @@ class User < ApplicationRecord
     self.confirmation_token_expires_at < Time.now
   end
 
+  def generate_unique_hash(user_id)
+    Digest::SHA1.hexdigest("#{user_id}-#{SecureRandom.hex(16)}")
+  end
 
   private
 

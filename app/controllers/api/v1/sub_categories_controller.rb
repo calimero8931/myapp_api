@@ -18,10 +18,20 @@ class Api::V1::SubCategoriesController < ApplicationController
   # end
 
   def interested_sub_categories
+    user_id = params[:user_id]
+
+    # sub_categories = SubCategory
+    # .joins("LEFT JOIN interests ON interests.sub_category_id = sub_categories.id")
+    # .select('sub_categories.*, COALESCE(interests.user_id, NULL) as interested_sub_category_id', 'interests.user_id as user_id')
+    # .order(:id)
+
+    # sub_categories = SubCategory
+    # .joins("LEFT JOIN interests ON interests.sub_category_id = sub_categories.id AND interests.user_id = ?", user_id)
+    # .select('sub_categories.*, COALESCE(interests.user_id, NULL) as interested_sub_category_id')
+    # .order(:id)
 
     sub_categories = SubCategory
-    # .joins(:interests)
-    .joins("LEFT JOIN interests ON interests.sub_category_id = sub_categories.id")
+    .joins("LEFT JOIN interests ON interests.sub_category_id = sub_categories.id AND interests.user_id = #{user_id}")
     .select('sub_categories.*, COALESCE(interests.user_id, NULL) as interested_sub_category_id')
     .order(:id)
 

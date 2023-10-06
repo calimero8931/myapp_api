@@ -21,4 +21,22 @@ class Api::V1::InterestsController < ApplicationController
       render json: { message: 'Interest removed successfully' }, status: :ok
     end
   end
+
+  def get_interested_sub_categories
+    user_id = params[:user_id]
+    trophy_id = params[:trophy_id]
+    trophy = Trophy.find(trophy_id)
+    sub_category_id = trophy.category_id
+    interest = Interest.find_by(user_id: user_id, sub_category_id: sub_category_id)
+
+    if interest.nil?
+      already = false
+      render json: already, status: :ok
+    else
+      already = true
+      render json: already, status: :ok
+    end
+  end
+
+
 end

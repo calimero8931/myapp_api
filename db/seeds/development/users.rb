@@ -32,7 +32,7 @@ if Rails.env.development?
   SQL
   ActiveRecord::Base.connection.execute(sql)
 
-  30.times do |n|
+  1.upto(30) do |n|
     name = "sub_category#{n}"
     category_id = rand(1..2)
     sub_category = SubCategory.find_or_initialize_by(name: name , category_id: category_id)
@@ -105,7 +105,7 @@ if Rails.env.development?
   SQL
   ActiveRecord::Base.connection.execute(sql)
 
-  30.times do |n|
+  1.upto(30) do |n|
     title = "trophy#{n}"
     description = "description#{n}"
     create_user_id = 1

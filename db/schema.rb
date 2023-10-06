@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2023_09_29_062641) do
+ActiveRecord::Schema.define(version: 2023_10_04_105125) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -75,6 +75,7 @@ ActiveRecord::Schema.define(version: 2023_09_29_062641) do
     t.string "website"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.string "unique_hash"
     t.index ["user_id"], name: "index_public_profiles_on_user_id"
     t.index ["username"], name: "index_public_profiles_on_username", unique: true
   end
