@@ -66,4 +66,12 @@ Rails.application.configure do
 
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.smtp_settings = { address: 'mailhog', port: 1025}
+
+  # いるかわからん
+  # Rails.application.routes.default_url_options[:host] = 'localhost'
+  # Rails.application.routes.default_url_options[:port] = 3000
+
+  # active storageの設定（ローカルで画像を保存する）
+  # https://railsguides.jp/active_storage_overview.html
+  config.active_storage.service = :local
 end

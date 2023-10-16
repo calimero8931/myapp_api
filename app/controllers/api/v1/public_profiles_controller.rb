@@ -9,7 +9,6 @@ class Api::V1::PublicProfilesController < ApplicationController
   def create
     user_id = params[:params][:user_id]
     user_name = params[:params][:user_name]
-    profile_image_url = params[:params][:profile_image_url]
     bio = params[:params][:bio]
     website = params[:params][:website]
     public_profile = User.new
@@ -20,7 +19,6 @@ class Api::V1::PublicProfilesController < ApplicationController
       public_profile = PublicProfile.new(
         user_id: user_id,
         username: user_name,
-        profile__image_url: profile_image_url,
         bio: bio,
         website: website,
         unique_hash: unique_hash
@@ -28,7 +26,6 @@ class Api::V1::PublicProfilesController < ApplicationController
       else
         public_profile.update(
         username: user_name,
-        profile__image_url: profile_image_url,
         bio: bio,
         website: website,
         unique_hash: unique_hash
@@ -36,11 +33,25 @@ class Api::V1::PublicProfilesController < ApplicationController
     end
 
     if public_profile.save
-      render json: { public_profile: public_profile, message: "保存されました" } , status: :ok
+      render json: { public_profile: public_profile.as_json(except: :profile_image_url), message: "保存されました" } , status: :ok
     else
       render json: {public_profile: public_profile.errors, message: "保存に失敗しました" }, status: :unprocessable_entity
     end
   end
+
+  def get_profile_img
+    user_id = params[:id]
+    public_profile = PublicProfile.find_by(user_id: user_id)
+
+    image_url = rails_blob_path(public_profile.profile_image_url, only_path: true)
+
+    if public_profile.nil?
+      render json: { message: "ユーザーが存在しません" }, status: :unprocessable_entity
+    else
+      render json: { image_url: image_url }, status: :ok
+    end
+  end
+
 
   def get_favorite
     user_id = params[:user_id]
@@ -61,11 +72,12 @@ class Api::V1::PublicProfilesController < ApplicationController
     user = PublicProfile.find_by(user_id: user_id)
 
     if user.nil?
-      render json: { message: "ユーザーが存在しません" }, status: :unprocessable_entity
+      render json: { error: "指定されたユーザーが存在しません" }, status: :not_found
     else
-      render json: user, status: :ok
+      render json: user.as_json(except: :profile_image_url), status: :ok
     end
   end
+
 
 
   def page_show
@@ -87,7 +99,7 @@ class Api::V1::PublicProfilesController < ApplicationController
     if public_profile.nil?
       render json: { message: "ユーザーが存在しません" }, status: :unprocessable_entity
     else
-      render json: { public_profile: public_profile, achievements: achievements }, status: :ok
+      render json: { public_profile: public_profile.as_json(except: :profile_image_url), achievements: achievements }, status: :ok
     end
   end
 

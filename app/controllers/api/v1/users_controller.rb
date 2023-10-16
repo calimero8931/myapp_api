@@ -18,6 +18,15 @@ class Api::V1::UsersController < ApplicationController
     else
       render json: { message: "パスワードが違います" }, status: :unprocessable_entity
     end
+  end
 
+  # 管理者権限の確認
+  def check_admin
+    user = User.find(params[:params][:user_id])
+    if user.admin
+      render json: { message: "管理者です", admin: true }, status: :ok
+    else
+      render json: { message: "管理者ではありません" }, status: :unprocessable_entity
+    end
   end
 end

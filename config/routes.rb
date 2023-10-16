@@ -7,6 +7,9 @@ Rails.application.routes.draw do
         delete :destroy,on: :collection
       end
 
+      # checkAdmin
+      post '/check_admin/', to: 'users#check_admin'
+
       # projects
       resources :projects, only:[:index]
 
@@ -15,6 +18,16 @@ Rails.application.routes.draw do
       # usersデータ取得
       get '/data/', to: 'users#get_user_data'
       # get '/data/', to: proc { [200, {}, ['とりあえず返します']] }
+
+      # recommend取得
+      get '/recommend_request/', to: 'trophies#recommend'
+
+      # 画像アップロード
+      post '/uploads/', to: 'posts#create'
+
+      get '/get_profile_img/:id', to: 'public_profiles#get_profile_img'
+
+      post '/trophy/uploads/', to: 'posts#create_trophy'
 
       # メールアドレス変更
       post '/change_email/', to: 'user_email#request_change'
