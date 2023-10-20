@@ -18,6 +18,25 @@ class Api::V1::PostsController < ApplicationController
     end
   end
 
+  def upload_achievement_image
+    uploaded_file = params[:file]
+    achievement_id = params[:achievement_id]
+    achievements = Achievement.find_by(id: achievement_id)
+
+    if achievements
+      # アタッチメントを作成し、ファイルをアタッチ
+      attachment = achievements.image_url.attach(uploaded_file)
+
+      if attachment
+        render json: { message: '画像がアップロードされました' }, status: :created
+      else
+        render json: { error: '画像のアップロードに失敗しました' }, status: :unprocessable_entity
+      end
+    else
+      render json: { error: 'アタッチメントが見つかりません' }, status: :not_found
+    end
+  end
+
   def create_trophy
     uploaded_file = params[:file]
     user_id = params[:user_id]

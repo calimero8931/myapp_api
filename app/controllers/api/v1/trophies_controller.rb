@@ -8,9 +8,18 @@ class Api::V1::TrophiesController < ApplicationController
   def list
     sub_categories_id = params[:param1]
     prefecture_id = params[:param2]
-    trophiesData = Trophy.where( category_id:sub_categories_id ,prefecture_id: prefecture_id).order(:id)
+    trophyData = Trophy.where( category_id:sub_categories_id ,prefecture_id: prefecture_id).order(:id)
 
-    render json: trophiesData.as_json(except: :image_url), status: :ok
+    trophies_with_urls = trophyData.map do |trophy|
+      attachment = trophy.image_url
+      if trophy.image_url.attached?
+        trophy.attributes.merge(image_url: url_for(attachment))
+      else
+        trophy.attributes.merge(image_url: url_for('https://www.shoshinsha-design.com/wp-content/uploads/2020/05/noimage-1-760x460.png'))
+      end
+    end
+
+    render json: trophies_with_urls, status: :ok
   end
 
   def show
@@ -24,6 +33,29 @@ class Api::V1::TrophiesController < ApplicationController
     end
 
     render json: trophyData, status: :ok
+  end
+
+  def get_favorite_trophy_image
+    user_id = params[:user_id]
+    #achievementsテーブルのuser_idカラムからuser_idと合うものを取得しtrophy_idを取得
+    achievements = Achievement.where(user_id: user_id, achievement: false)
+
+    trophy_ids = achievements.pluck(:trophy_id)
+
+    # trophiesテーブルから該当するtrophy_idのレコードを取得し、image_urlを取り出す
+    favorite_trophies = Trophy.where(id: trophy_ids).select(:id, :image_url)
+
+    trophies_with_urls = favorite_trophies.map do |trophy|
+      attachment = trophy.image_url
+      if trophy.image_url.attached?
+        trophy.attributes.merge(image_url: url_for(attachment))
+      else
+        trophy.attributes.merge(image_url: url_for('https://www.shoshinsha-design.com/wp-content/uploads/2020/05/noimage-1-760x460.png'))
+      end
+    end
+
+    render json: trophies_with_urls, status: :ok
+
   end
 
   def recommend

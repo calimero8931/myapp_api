@@ -25,6 +25,10 @@ Rails.application.routes.draw do
       # 画像アップロード
       post '/uploads/', to: 'posts#create'
 
+      post '/upload_achievement_image/', to: 'posts#upload_achievement_image'
+
+      get '/get_achievements_image/:user_id', to: 'achievements#get_achievements_image'
+
       get '/get_profile_img/:id', to: 'public_profiles#get_profile_img'
 
       post '/trophy/uploads/', to: 'posts#create_trophy'
@@ -82,7 +86,10 @@ Rails.application.routes.draw do
       get '/get_interested/', to: 'interests#get_interested_sub_categories'
 
       # achievement取得
-      get '/get_achievements_list/', to: 'achievements#get_achievements'
+      get '/get_favorite_list/', to: 'achievements#get_favorite_list'
+
+      # trophy画像取得
+      get '/get_trophy_image/', to: 'trophies#get_favorite_trophy_image'
 
       # achieve_trophy
       get '/achieve_trophy/', to: 'achievements#achieve_trophy'

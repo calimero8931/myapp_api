@@ -10,9 +10,7 @@ class Trophy < ApplicationRecord
       Rails.application.routes.url_helpers.rails_blob_path(image_url, only_path: false)
     else
       # 画像がアタッチされていない場合のデフォルトのアタッチメントを返す
-      # ここでデフォルトのアタッチメントを設定してください
-      # 例: default_profile_image.png がアタッチされている場合
-      # Rails.application.routes.url_helpers.rails_blob_path("default_profile_image.png", only_path: false)
+      'https://www.shoshinsha-design.com/wp-content/uploads/2020/05/noimage-1-760x460.png'
     end
   end
 end

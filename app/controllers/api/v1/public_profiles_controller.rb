@@ -85,16 +85,26 @@ class Api::V1::PublicProfilesController < ApplicationController
     public_profile = PublicProfile.find_by(unique_hash: unique_hash)
     achievements = Achievement
                     .joins(:trophy)
-                    .where(user_id: public_profile.user_id)
+                    .where(user_id: public_profile.user_id, achievement: true)
                     .select(
                       "achievements.id, achievements.user_id,
-                       achievements.trophy_id, achievements.created_at,
-                        trophies.title, trophies.description, trophies.image_url,
-                         trophies.latitude, trophies.longitude, trophies.country_id,
-                          trophies.category_id, trophies.region_id, trophies.prefecture_id,
-                           trophies.create_user_id, trophies.created_at, trophies.updated_at"
+                      achievements.trophy_id, achievements.created_at,
+                      achievements.success_at, achievements.image_url,
+                      trophies.title, trophies.description,
+                      trophies.latitude, trophies.longitude, trophies.country_id,
+                      trophies.category_id, trophies.region_id, trophies.prefecture_id,
+                      trophies.create_user_id, trophies.created_at, trophies.updated_at"
                     )
+                    .order("achievements.success_at DESC")
 
+    achievements = achievements.map do |achievement|
+      attachment = achievement.image_url
+      if achievement.image_url.attached?
+        achievement.attributes.merge(image_url: url_for(attachment))
+      else
+        achievement.attributes.merge(image_url: url_for('https://www.shoshinsha-design.com/wp-content/uploads/2020/05/noimage-1-760x460.png'))
+      end
+    end
 
     if public_profile.nil?
       render json: { message: "ユーザーが存在しません" }, status: :unprocessable_entity
