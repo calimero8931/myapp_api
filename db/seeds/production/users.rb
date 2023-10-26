@@ -25,7 +25,6 @@ if Rails.env.production?
 
   puts "countries = #{Country.count}"
 
-  # categoryのsql文
   sql = <<-SQL
   INSERT INTO categories (name, created_at, updated_at)
     VALUES ('観光', NOW(), NOW()),('食べ物', NOW(), NOW());
@@ -127,9 +126,4 @@ if Rails.env.production?
   end
 
   puts "trophies = #{Trophy.count}"
-end
-
-if Rails.env.development?# 本番環境用のシーディングデータ
-
-  # ...
 end
