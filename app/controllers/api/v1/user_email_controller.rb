@@ -17,7 +17,7 @@ class Api::V1::UserEmailController < ApplicationController
     end
 
     confirmation_token = SecureRandom.urlsafe_base64
-    confirmation_token_expires_at = 15.seconds.from_now # 5分後
+    confirmation_token_expires_at = 5.minutes.from_now # 5分後
     user.update(
       unconfirmed_email: new_email,
       confirmation_token: confirmation_token,
@@ -63,6 +63,16 @@ class Api::V1::UserEmailController < ApplicationController
       user.update(unconfirmed_email: nil, confirmation_token: nil, confirmation_token_expires_at: nil)
       render json: { error: nil ,message: '無効なトークンです。もう一度やり直してください。' }, status: :unprocessable_entity
     end
+  end
+
+  def send_contact_confirmation
+    name = params[:user][:name]
+    email = params[:user][:email]
+    content = params[:user][:content]
+
+    UserMailer.send_contact_confirmation(name, email, content).deliver_now
+
+    render json: { message: 'メールが送信されました。' }
   end
 
 end

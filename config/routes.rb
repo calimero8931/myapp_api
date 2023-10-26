@@ -7,6 +7,19 @@ Rails.application.routes.draw do
         delete :destroy,on: :collection
       end
 
+      #新規登録の確認メール
+      get '/confirm_signup/:token', to: 'auth#confirm_signup_step1', as: 'confirm_signup'
+
+      #新規登録のリダイレクト後の処理
+      post '/confirm_signup2/', to: 'auth#confirm_signup_step2'
+
+      # password_resetのメール
+      post '/password_reset_step1/', to: 'user_password#password_reset_step1'
+
+      get '/password_reset_step2/:token', to: 'user_password#password_reset_step2', as: 'password_reset'
+
+      post '/password_reset_step3/', to: 'user_password#password_reset_step3'
+
       # checkAdmin
       post '/check_admin/', to: 'users#check_admin'
 
@@ -15,9 +28,8 @@ Rails.application.routes.draw do
 
       post '/signup', to: 'auth#signup'
 
-      # usersデータ取得
-      get '/data/', to: 'users#get_user_data'
-      # get '/data/', to: proc { [200, {}, ['とりあえず返します']] }
+      # nameとemail取得
+      post '/get_user_data/', to: 'users#get_user_data'
 
       # recommend取得
       get '/recommend_request/', to: 'trophies#recommend'
@@ -33,6 +45,9 @@ Rails.application.routes.draw do
 
       post '/trophy/uploads/', to: 'posts#create_trophy'
 
+      # お問い合わせ送信
+      post '/contacts/', to: 'user_email#send_contact_confirmation'
+
       # メールアドレス変更
       post '/change_email/', to: 'user_email#request_change'
 
@@ -45,7 +60,7 @@ Rails.application.routes.draw do
       # パスワード変更
       post '/change_password/', to: 'user_password#request_change'
 
-      # アカウント非アクティブ
+      # アカウント非アクティブ化
       post '/delete_account/', to: 'users#delete_account'
 
       # friend申請

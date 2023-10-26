@@ -79,6 +79,9 @@ GEM
       unicode-display_width (~> 1.1)
     i18n (1.12.0)
       concurrent-ruby (~> 1.0)
+    image_processing (1.12.2)
+      mini_magick (>= 4.9.5, < 5)
+      ruby-vips (>= 2.0.17, < 3)
     jwt (2.7.0)
     listen (3.8.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
@@ -93,6 +96,7 @@ GEM
       net-smtp
     marcel (1.0.2)
     method_source (1.0.0)
+    mini_magick (4.12.0)
     mini_mime (1.1.2)
     minitest (5.17.0)
     minitest-reporters (1.6.0)
@@ -153,6 +157,8 @@ GEM
     rb-inotify (0.10.1)
       ffi (~> 1.0)
     ruby-progressbar (1.13.0)
+    ruby-vips (2.2.0)
+      ffi (~> 1.12)
     spring (4.1.1)
     sprockets (4.2.0)
       concurrent-ruby (~> 1.0)
@@ -180,8 +186,10 @@ DEPENDENCIES
   byebug
   hirb (~> 0.7.3)
   hirb-unicode-steakknife (~> 0.0.9)
+  image_processing (~> 1.2)
   jwt (~> 2.7)
   listen (~> 3.3)
+  mini_magick
   minitest-reporters (~> 1.6)
   pg (~> 1.1)
   puma (~> 5.0)

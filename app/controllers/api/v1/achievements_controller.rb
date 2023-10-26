@@ -50,7 +50,7 @@ class Api::V1::AchievementsController < ApplicationController
     user_achievements = Achievement
       .joins(:trophy)
       .where(user_id: user_id, achievement: false)
-      .select('achievements.*, trophies.title as trophy_title')
+      .select('achievements.*, trophies.title as trophy_title, trophies.latitude as trophy_latitude, trophies.longitude as trophy_longitude')
       .order(:id)
 
       render json: user_achievements.as_json(except: :image_url)
@@ -106,7 +106,7 @@ class Api::V1::AchievementsController < ApplicationController
       if achievement.image_url.attached?
         achievement.attributes.merge(image_url: url_for(attachment))
       else
-        achievement.attributes.merge(image_url: url_for('https://www.shoshinsha-design.com/wp-content/uploads/2020/05/noimage-1-760x460.png'))
+        achievement.attributes.merge(image_url: url_for('http://design-ec.com/d/e_others_50/l_e_others_501.png'))
       end
     end
 
@@ -114,8 +114,5 @@ class Api::V1::AchievementsController < ApplicationController
 
   end
 
-  def test
-    return "testっす", status: :ok
-  end
 
 end

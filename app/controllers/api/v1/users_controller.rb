@@ -1,9 +1,11 @@
 class Api::V1::UsersController < ApplicationController
   # userのデータを取得
   def get_user_data
-    user_id = params[:user_id]
-    user = User.find(user_id)
-    render json: user.response_json, status: :ok
+    user_id = params[:params][:user_id]
+    user = User
+          .find_by(id: user_id)
+          .as_json(except: [:activated, :admin,:confirmation_token, :confirmation_token_expires_at, :refresh_jti,:unconfirmed_email, :password_digest, :created_at, :updated_at])
+    render json: user, status: :ok
   end
 
   # アカウント非アクティブ化

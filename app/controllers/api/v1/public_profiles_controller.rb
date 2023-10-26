@@ -33,7 +33,7 @@ class Api::V1::PublicProfilesController < ApplicationController
     end
 
     if public_profile.save
-      render json: { public_profile: public_profile.as_json(except: :profile_image_url), message: "保存されました" } , status: :ok
+      render json: { public_profile: public_profile.as_json(except: :profile_image_url), message: "保存されました。プロフィールへ移動します。" } , status: :ok
     else
       render json: {public_profile: public_profile.errors, message: "保存に失敗しました" }, status: :unprocessable_entity
     end
@@ -102,7 +102,7 @@ class Api::V1::PublicProfilesController < ApplicationController
       if achievement.image_url.attached?
         achievement.attributes.merge(image_url: url_for(attachment))
       else
-        achievement.attributes.merge(image_url: url_for('https://www.shoshinsha-design.com/wp-content/uploads/2020/05/noimage-1-760x460.png'))
+        achievement.attributes.merge(image_url: url_for('http://design-ec.com/d/e_others_50/l_e_others_500.png'))
       end
     end
 

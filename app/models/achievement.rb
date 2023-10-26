@@ -16,4 +16,20 @@ class Achievement < ApplicationRecord
     end
   end
 
+  # Achievementモデル内のcompress_imageメソッド
+  # def compress_image
+  #   if image_url.attached?
+  #     io = image_url.download
+
+  #     image = MiniMagick::Image.read(io)
+  #     image.resize "300x300"
+  #     image.quality 80
+
+  #     io = StringIO.new(image.to_blob)
+  #     io.set_encoding(Encoding::BINARY)
+  #     image_url.attach(io: io, filename: image_url.filename, content_type: "image/jpeg")
+  #   end
+  # end
+
+
 end
