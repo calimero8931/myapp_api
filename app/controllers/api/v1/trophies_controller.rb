@@ -15,7 +15,7 @@ class Api::V1::TrophiesController < ApplicationController
       if trophy.image_url.attached?
         trophy.attributes.merge(image_url: url_for(attachment))
       else
-        trophy.attributes.merge(image_url: url_for('noimage.png'))
+        trophy.attributes.merge(image_url: url_for('/noimage.png'))
       end
     end
 
@@ -29,7 +29,7 @@ class Api::V1::TrophiesController < ApplicationController
     if trophyData.image_url.attached?
       trophyData = trophyData.attributes.merge(image_url: url_for(attachment))
     else
-      trophyData = trophyData.attributes.merge(image_url: url_for('noimage.png'))
+      trophyData = trophyData.attributes.merge(image_url: url_for('/noimage.png'))
     end
 
     render json: trophyData, status: :ok
@@ -50,7 +50,7 @@ class Api::V1::TrophiesController < ApplicationController
       if trophy.image_url.attached?
         trophy.attributes.merge(image_url: url_for(attachment))
       else
-        trophy.attributes.merge(image_url: url_for('noimage.png'))
+        trophy.attributes.merge(image_url: url_for('/noimage.png'))
       end
     end
 
@@ -67,7 +67,7 @@ class Api::V1::TrophiesController < ApplicationController
       if trophy.image_url.attached?
         trophy.attributes.merge(image_url: url_for(attachment))
       else
-        trophy.attributes.merge(image_url: url_for('noimage.png'))
+        trophy.attributes.merge(image_url: url_for('/noimage.png'))
       end
     end
 
