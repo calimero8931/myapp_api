@@ -73,5 +73,8 @@ Rails.application.configure do
 
   # active storageの設定（ローカルで画像を保存する）
   # https://railsguides.jp/active_storage_overview.html
-  config.active_storage.service = :local
+  # config.active_storage.service = :local
+  #ファイルをAmazon S3に保存する
+  config.active_storage.service = :amazon
+
 end

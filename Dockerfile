@@ -8,6 +8,10 @@ ENV HOME=/${WORKDIR} \
     LANG=C.UTF-8 \
     TZ=Asia/Tokyo
 
+ENV AWS_ACCESS_KEY_ID=AKIAYAWUQSFDRSWEZBMC
+ENV AWS_SECRET_ACCESS_KEY=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
+ENV AWS_S3_BUCKET=ap-northeast-3
+
 WORKDIR ${HOME}
 
 COPY Gemfile* ./
@@ -19,6 +23,8 @@ RUN apk update && \
     bundle install -j4 && \
     apk del build-dependencies
 RUN apk add --no-cache gcompat
+RUN apk update
+RUN apk add vim
 
 COPY . .
 

@@ -1,5 +1,5 @@
 class Trophy < ApplicationRecord
-  # has_many :achievements
+  has_many :achievements
   has_one_attached :image_url
 
   public
@@ -10,7 +10,7 @@ class Trophy < ApplicationRecord
       Rails.application.routes.url_helpers.rails_blob_path(image_url, only_path: false)
     else
       # 画像がアタッチされていない場合のデフォルトのアタッチメントを返す
-      'https://www.shoshinsha-design.com/wp-content/uploads/2020/05/noimage-1-760x460.png'
+      'noimage.png'
     end
   end
 end

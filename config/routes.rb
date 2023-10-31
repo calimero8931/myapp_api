@@ -43,7 +43,7 @@ Rails.application.routes.draw do
 
       get '/get_profile_img/:id', to: 'public_profiles#get_profile_img'
 
-      post '/trophy/uploads/', to: 'posts#create_trophy'
+      post '/trophy/uploads/', to: 'trophies#create_trophy'
 
       # お問い合わせ送信
       post '/contacts/', to: 'user_email#send_contact_confirmation'

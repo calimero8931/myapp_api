@@ -15,7 +15,7 @@ class Api::V1::TrophiesController < ApplicationController
       if trophy.image_url.attached?
         trophy.attributes.merge(image_url: url_for(attachment))
       else
-        trophy.attributes.merge(image_url: url_for('https://www.shoshinsha-design.com/wp-content/uploads/2020/05/noimage-1-760x460.png'))
+        trophy.attributes.merge(image_url: url_for('noimage.png'))
       end
     end
 
@@ -29,7 +29,7 @@ class Api::V1::TrophiesController < ApplicationController
     if trophyData.image_url.attached?
       trophyData = trophyData.attributes.merge(image_url: url_for(attachment))
     else
-      trophyData = trophyData.attributes.merge(image_url: url_for('https://www.shoshinsha-design.com/wp-content/uploads/2020/05/noimage-1-760x460.png'))
+      trophyData = trophyData.attributes.merge(image_url: url_for('noimage.png'))
     end
 
     render json: trophyData, status: :ok
@@ -50,7 +50,7 @@ class Api::V1::TrophiesController < ApplicationController
       if trophy.image_url.attached?
         trophy.attributes.merge(image_url: url_for(attachment))
       else
-        trophy.attributes.merge(image_url: url_for('https://www.shoshinsha-design.com/wp-content/uploads/2020/05/noimage-1-760x460.png'))
+        trophy.attributes.merge(image_url: url_for('noimage.png'))
       end
     end
 
@@ -67,11 +67,54 @@ class Api::V1::TrophiesController < ApplicationController
       if trophy.image_url.attached?
         trophy.attributes.merge(image_url: url_for(attachment))
       else
-        trophy.attributes.merge(image_url: url_for('https://www.shoshinsha-design.com/wp-content/uploads/2020/05/noimage-1-760x460.png'))
+        trophy.attributes.merge(image_url: url_for('noimage.png'))
       end
     end
 
     render json: trophies_with_urls, status: :ok
+  end
+
+  def create_trophy
+    uploaded_file = params[:file]
+    user_id = params[:user_id]
+    title = params[:user_name]
+    description = params[:bio]
+    website = params[:website]
+    latitude = params[:latitude]
+    longitude = params[:longitude]
+    country_id = params[:country_id]
+    category_id = params[:category_id]
+    sub_category_id = params[:sub_category_id]
+    region_id = params[:region_id]
+    prefecture_id = params[:prefecture_id]
+
+    new_trophy = Trophy.new(
+      create_user_id: user_id,
+      title: title,
+      description: description,
+      # website: website,
+      latitude: latitude,
+      longitude: longitude,
+      country_id: country_id,
+      # category_id: category_id,
+      category_id: sub_category_id,
+      region_id: region_id,
+      prefecture_id: prefecture_id
+    )
+
+    # render json: trophy
+
+    if new_trophy.save
+      attachment = new_trophy.image_url.attach(uploaded_file)
+
+      if attachment
+        render json: { message: 'トロフィーが作成されました' }, status: :created
+      else
+        render json: { error: '画像のアップロードに失敗しました' }, status: :unprocessable_entity
+      end
+    else
+      render json: { error: 'Trophyの作成に失敗しました' }, status: :unprocessable_entity
+    end
   end
 
 end
