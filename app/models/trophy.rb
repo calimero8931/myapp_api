@@ -1,5 +1,6 @@
 class Trophy < ApplicationRecord
   has_many :achievements
+  belongs_to :prefecture
   has_one_attached :image_url
 
   public

@@ -102,7 +102,7 @@ class Api::V1::PublicProfilesController < ApplicationController
       if achievement.image_url.attached?
         achievement.attributes.merge(image_url: url_for(attachment))
       else
-        achievement.attributes.merge(image_url: url_for('http://design-ec.com/d/e_others_50/l_e_others_500.png'))
+        achievement.attributes.merge(image_url: url_for('/noimage.png'))
       end
     end
 

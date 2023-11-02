@@ -8,7 +8,11 @@ class Api::V1::TrophiesController < ApplicationController
   def list
     sub_categories_id = params[:param1]
     prefecture_id = params[:param2]
-    trophyData = Trophy.where( category_id:sub_categories_id ,prefecture_id: prefecture_id).order(:id)
+    trophyData = Trophy
+                       .joins(:prefecture)
+                       .where( category_id:sub_categories_id ,prefecture_id: prefecture_id)
+                       .select('trophies.*, prefectures.name as prefecture_name')
+                       .order(:id)
 
     trophies_with_urls = trophyData.map do |trophy|
       attachment = trophy.image_url
@@ -60,7 +64,12 @@ class Api::V1::TrophiesController < ApplicationController
 
   def recommend
     user_id = params[:user_id]
-    trophies = Trophy.where(category_id: 1).order('RANDOM()').limit(10)
+    trophies = Trophy.where(category_id: 1)
+                     .joins(:prefecture)
+                     .order('RANDOM()')
+                     .limit(10)
+                     .select('trophies.*, prefectures.name as prefecture_name')
+
 
     trophies_with_urls = trophies.map do |trophy|
       attachment = trophy.image_url
