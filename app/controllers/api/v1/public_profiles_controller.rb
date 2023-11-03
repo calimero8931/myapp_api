@@ -43,7 +43,22 @@ class Api::V1::PublicProfilesController < ApplicationController
     user_id = params[:id]
     public_profile = PublicProfile.find_by(user_id: user_id)
 
-    image_url = rails_blob_path(public_profile.profile_image_url, only_path: true)
+    image_url = url_for(public_profile.profile_image_url)
+
+
+    if public_profile.nil?
+      render json: { message: "ユーザーが存在しません" }, status: :unprocessable_entity
+    else
+      render json: { image_url: image_url }, status: :ok
+    end
+  end
+
+  def get_profile_img_hash
+    unique_hash = params[:hash]
+    public_profile = PublicProfile.find_by(unique_hash: unique_hash)
+
+    image_url = url_for(public_profile.profile_image_url)
+
 
     if public_profile.nil?
       render json: { message: "ユーザーが存在しません" }, status: :unprocessable_entity

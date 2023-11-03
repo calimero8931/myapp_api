@@ -43,6 +43,8 @@ Rails.application.routes.draw do
 
       get '/get_profile_img/:id', to: 'public_profiles#get_profile_img'
 
+      get '/get_profile_img_hash/:hash', to: 'public_profiles#get_profile_img_hash'
+
       post '/trophy/uploads/', to: 'trophies#create_trophy'
 
       # お問い合わせ送信

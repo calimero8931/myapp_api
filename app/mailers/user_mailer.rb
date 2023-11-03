@@ -1,7 +1,7 @@
 include Rails.application.routes.url_helpers
 
 class UserMailer < ApplicationMailer
-  default from: 'trophees.dev@gmail.com' # 送信元のメールアドレスを設定
+  default from: 'trophees.dev@gmail.com'
 
   def signup_confirmation(user, email, confirmation_token, url)
     @user = user
