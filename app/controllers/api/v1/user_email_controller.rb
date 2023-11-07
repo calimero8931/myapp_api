@@ -49,12 +49,12 @@ class Api::V1::UserEmailController < ApplicationController
       return
     end
 
-  # トークンの有効期限をチェック
-  if user.confirmation_token_expired?
-    user.update(unconfirmed_email: nil, confirmation_token: nil, confirmation_token_expires_at: nil)
-    render json: { error: nil , message: 'トークンの有効期限が切れています' }, status: :unprocessable_entity
-    return
-  end
+    # トークンの有効期限をチェック
+    if user.confirmation_token_expired?
+      user.update(unconfirmed_email: nil, confirmation_token: nil, confirmation_token_expires_at: nil)
+      render json: { error: nil , message: 'トークンの有効期限が切れています' }, status: :unprocessable_entity
+      return
+    end
 
     if user.confirmation_token == token
       user.update(email: user.unconfirmed_email, unconfirmed_email: nil, confirmation_token: nil, confirmation_token_expires_at: nil)
