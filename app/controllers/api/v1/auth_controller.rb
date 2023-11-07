@@ -12,7 +12,7 @@ class Api::V1::AuthController < ApplicationController
     user.activated = false
 
     confirmation_token = SecureRandom.urlsafe_base64
-    confirmation_token_expires_at = 15.seconds.from_now # 5分後
+    confirmation_token_expires_at = 5.minutes.from_now # 5分後
     user.update(
       confirmation_token: confirmation_token,
       confirmation_token_expires_at: confirmation_token_expires_at
