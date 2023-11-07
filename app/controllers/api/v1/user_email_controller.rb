@@ -35,7 +35,7 @@ class Api::V1::UserEmailController < ApplicationController
   def confirm_email_change_step1
     id = params[:id]
     token = params[:token]
-    redirect_to "http://localhost:8080/account/mail-address?id=#{id}&token=#{token}"
+    redirect_to "https://animal-app-front.herokuapp.com/account/mail-address?id=#{id}&token=#{token}"
   end
 
   def confirm_email_change_step2
