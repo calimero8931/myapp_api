@@ -30,7 +30,7 @@ class Api::V1::AuthController < ApplicationController
 
   def confirm_signup_step1
     token = params[:token]
-    redirect_to "http://localhost:8080/login?token=#{token}"
+    redirect_to "https://animal-app-front.herokuapp.com/login?token=#{token}"
   end
 
   def confirm_signup_step2
