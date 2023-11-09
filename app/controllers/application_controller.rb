@@ -1,12 +1,4 @@
 class ApplicationController < ActionController::API
-  if Rails.env.production?
-    config.middleware.insert_after(::Rack::Runtime, "::Rack::Auth::Basic", "Staging") do |u, p|
-      [u, p] == [ENV['BASIC_AUTH_USER'], ENV['BASIC_AUTH_PASSWORD']]
-    end
-  end
-
-
-
   # 301リダイレクト(本番環境のみ有効)
   before_action :moved_permanently, if: :is_redirect
   # Cookieを使う
@@ -58,5 +50,11 @@ class ApplicationController < ActionController::API
     # 301リダイレクトを行う
     def moved_permanently
       redirect_to "#{ENV["BASE_URL"]}#{request.path}", status: 301
+    end
+
+    if Rails.env.production?
+      config.middleware.insert_after(::Rack::Runtime, "::Rack::Auth::Basic", "Staging") do |u, p|
+        [u, p] == [ENV['BASIC_AUTH_USER'], ENV['BASIC_AUTH_PASSWORD']]
+      end
     end
 end
