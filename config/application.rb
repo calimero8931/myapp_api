@@ -58,10 +58,5 @@ module App
 
     # active storageの設定
     config.active_storage.service = :local
-
-    config.middleware.insert_after(::Rack::Runtime, "::Rack::Auth::Basic", "Staging") do |u, p|
-      [u, p] === [ENV['BASIC_AUTH_USER'], ENV['BASIC_AUTH_PASSWORD']]
-    end
-
   end
 end
