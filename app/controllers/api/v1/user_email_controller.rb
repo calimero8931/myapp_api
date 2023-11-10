@@ -24,7 +24,6 @@ class Api::V1::UserEmailController < ApplicationController
       confirmation_token_expires_at: confirmation_token_expires_at
       )
 
-    # url = "http://localhost:8080/confirm_email/#{user_id}/#{confirmation_token}?format=json"
     url = api_v1_confirm_email_change_url(id: user_id, token: confirmation_token)
 
     UserMailer.email_change_confirmation(user, new_email, confirmation_token, url).deliver_now
@@ -35,7 +34,7 @@ class Api::V1::UserEmailController < ApplicationController
   def confirm_email_change_step1
     id = params[:id]
     token = params[:token]
-    redirect_to "https://animal-app-front.herokuapp.com/account/mail-address?id=#{id}&token=#{token}"
+    redirect_to "https://trophees.earth/account/mail-address?id=#{id}&token=#{token}"
   end
 
   def confirm_email_change_step2

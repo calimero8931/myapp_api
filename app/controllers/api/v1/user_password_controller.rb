@@ -45,7 +45,7 @@ class Api::V1::UserPasswordController < ApplicationController
 
   def password_reset_step2
     token = params[:token]
-    redirect_to "https://animal-app-front.herokuapp.com/password-reset?token=#{token}"
+    redirect_to "https://trophees.earth/password-reset?token=#{token}"
   end
 
   def password_reset_step3
