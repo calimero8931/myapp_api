@@ -1,8 +1,8 @@
 if Rails.env.development?
 
-  10.times do |n|
-    name = "user#{n}"
-    email = "#{name}@example.com"
+  1.times do |n|
+    name = "admin"
+    email = "hello.potechi@gmail.com"
     user = User.find_or_initialize_by(email: email, activated: true)
 
     if user.new_record?

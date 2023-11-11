@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2023_10_12_042209) do
+ActiveRecord::Schema.define(version: 2023_11_10_101310) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -105,7 +105,7 @@ ActiveRecord::Schema.define(version: 2023_10_12_042209) do
     t.datetime "updated_at", precision: 6, null: false
     t.string "unique_hash"
     t.index ["user_id"], name: "index_public_profiles_on_user_id"
-    t.index ["username"], name: "index_public_profiles_on_username", unique: true
+    t.index ["username"], name: "index_public_profiles_on_username"
   end
 
   create_table "regions", force: :cascade do |t|
