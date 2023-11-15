@@ -83,6 +83,26 @@ class Api::V1::TrophiesController < ApplicationController
     render json: trophies_with_urls, status: :ok
   end
 
+  def get_new_trophy
+    user_id = params[:user_id]
+    trophies = Trophy
+                .joins(:prefecture)
+                .order(created_at: :desc)
+                .limit(10)
+                .select('trophies.*, prefectures.name as prefecture_name')
+
+    trophies_with_urls = trophies.map do |trophy|
+      attachment = trophy.image_url
+      if trophy.image_url.attached?
+        trophy.attributes.merge(image_url: url_for(attachment))
+      else
+        trophy.attributes.merge(image_url: url_for('/noimage.png'))
+      end
+    end
+
+    render json: trophies_with_urls, status: :ok
+  end
+
   def create_trophy
     uploaded_file = params[:file]
     user_id = params[:user_id]

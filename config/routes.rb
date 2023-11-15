@@ -23,6 +23,8 @@ Rails.application.routes.draw do
       # checkAdmin
       post '/check_admin/', to: 'users#check_admin'
 
+      get '/get_new_trophy/', to: 'trophies#get_new_trophy'
+
       # projects
       resources :projects, only:[:index]
 
