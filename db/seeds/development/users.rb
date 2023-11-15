@@ -41,6 +41,7 @@ if Rails.env.development?
   INSERT INTO sub_categories (category_id ,name, created_at, updated_at)
     VALUES (1, '寺社仏閣', NOW(), NOW()),
            (1, '景勝地', NOW(), NOW()),
+           (1, '城・城跡', NOW(), NOW()),
            (1, '温泉・銭湯', NOW(), NOW()),
            (2, 'ラーメン', NOW(), NOW()),
            (2, 'カレー', NOW(), NOW()),
