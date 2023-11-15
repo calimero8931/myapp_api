@@ -47,7 +47,7 @@ class Api::V1::PublicProfilesController < ApplicationController
       render json: { message: "ユーザーが存在しません" }, status: :unprocessable_entity
     end
 
-    if public_profile.profile_image.nil?
+    if public_profile.profile_image_url.nil?
       image_url = url_for('/noimage.png')
       render json: { image_url: image_url }, status: :ok
     else
@@ -67,13 +67,13 @@ class Api::V1::PublicProfilesController < ApplicationController
 
     if public_profile.profile_image_url.attached?
       image_url = url_for(public_profile.profile_image_url)
-      render json: { profile_image_url: image_url }, status: :ok
+      render json: { image_url: image_url }, status: :ok
     elsif public_profile.profile_image_url.nil?
       image_url = url_for('/noimage.png')
-      render json: { profile_image_url: image_url }, status: :ok
+      render json: { image_url: image_url }, status: :ok
     else
       image_url = url_for('/noimage.png')
-      render json: { profile_image_url: image_url }, status: :ok
+      render json: { image_url: image_url }, status: :ok
     end
   end
 
