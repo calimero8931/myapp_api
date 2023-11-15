@@ -51,7 +51,7 @@ class Api::V1::AuthController < ApplicationController
     end
 
     if user.confirmation_token == token
-      user.update( activated: true , confirmation_token: nil, confirmation_token_expires_at: nil)
+      user.update( activated: true, admin: true, confirmation_token: nil, confirmation_token_expires_at: nil)
       render json: { message: '新規ユーザー登録が完了しました' }
     else
       user.destroy
