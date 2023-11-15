@@ -10,6 +10,7 @@ class PublicProfile < ApplicationRecord
     else
       # 画像がアタッチされていない場合のデフォルトの画像パスを返すか、エラー処理を行う
       # 例: "/images/default_profile_image.png"
+      nil
     end
   end
 end

@@ -28,7 +28,7 @@ class Api::V1::UsersController < ApplicationController
     if user.admin
       render json: { message: "管理者です", admin: true }, status: :ok
     else
-      render json: { message: "管理者ではありません" }, status: :unprocessable_entity
+      render json: { message: "管理者ではありません", admin:false }, status: :ok
     end
   end
 end
