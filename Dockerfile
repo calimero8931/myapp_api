@@ -8,6 +8,7 @@ ENV HOME=/${WORKDIR} \
     LANG=C.UTF-8 \
     TZ=Asia/Tokyo
 
+
 WORKDIR ${HOME}
 
 COPY Gemfile* ./

@@ -121,17 +121,14 @@ class Api::V1::TrophiesController < ApplicationController
       create_user_id: user_id,
       title: title,
       description: description,
-      # website: website,
       latitude: latitude,
       longitude: longitude,
       country_id: country_id,
-      # category_id: category_id,
       category_id: sub_category_id,
       region_id: region_id,
       prefecture_id: prefecture_id
     )
 
-    # render json: trophy
 
     if new_trophy.save
       attachment = new_trophy.image_url.attach(uploaded_file)
@@ -143,6 +140,24 @@ class Api::V1::TrophiesController < ApplicationController
       end
     else
       render json: { error: 'Trophyの作成に失敗しました' }, status: :unprocessable_entity
+    end
+  end
+
+  def get_all_trophy_list
+    trophies = Trophy.all
+                .order(:id)
+
+    render json: trophies.as_json(except: :image_url), status: :ok
+  end
+
+  def delete_trophy
+    trophy_id = params[:params][:trophy_id]
+    trophy = Trophy.find(trophy_id)
+
+    if trophy.destroy
+      render json: { message: 'トロフィーを削除しました' }, status: :ok
+    else
+      render json: { error: 'トロフィーの削除に失敗しました' }, status: :unprocessable_entity
     end
   end
 
