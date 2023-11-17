@@ -1,5 +1,5 @@
 class Trophy < ApplicationRecord
-  has_many :achievements
+  has_many :achievements, dependent: :destroy
   belongs_to :prefecture
   has_one_attached :image_url
 
