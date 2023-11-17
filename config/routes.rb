@@ -27,7 +27,7 @@ Rails.application.routes.draw do
 
       get '/get_all_trophy_list/', to: 'trophies#get_all_trophy_list'
 
-      post '/delete_trophy/', to: 'trophies#delete_trophy'
+      get '/delete_trophy/', to: 'trophies#delete_trophy'
 
       # projects
       resources :projects, only:[:index]

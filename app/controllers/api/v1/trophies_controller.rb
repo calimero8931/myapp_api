@@ -151,7 +151,7 @@ class Api::V1::TrophiesController < ApplicationController
   end
 
   def delete_trophy
-    trophy_id = params[:params][:trophy_id]
+    trophy_id = params[:trophy_id]
     trophy = Trophy.find(trophy_id)
 
     if trophy.destroy
