@@ -1,5 +1,5 @@
 class Achievement < ApplicationRecord
-  belongs_to :trophy
+  belongs_to :trophy, dependent: :destroy
   has_one_attached :image_url
 
   public
