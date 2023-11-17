@@ -145,7 +145,7 @@ class Api::V1::TrophiesController < ApplicationController
 
   def get_all_trophy_list
     trophies = Trophy.all
-                .order(:id)
+                      .order(id: :desc)
 
     render json: trophies.as_json(except: :image_url), status: :ok
   end
